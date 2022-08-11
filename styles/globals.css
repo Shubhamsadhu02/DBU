@@ -246,7 +246,6 @@ header ul li a {
 }
 .product-wrapper {
     padding-top: 40px;
-    padding-left: 40px;
     padding-right: 0px;
     margin-top: 40px;
     height: 580px;
@@ -279,6 +278,11 @@ header ul li a {
 
 .work-box {
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.product-wrapper--text
+{
+    padding-left: 40px;
 }
 
 .product-wrapper--title {
@@ -1257,4 +1261,9 @@ footer .copyright p {
 {
     background-size: cover;
     width: 100%;
+}
+
+.josh-girl--img
+{
+    position: relative;
 }

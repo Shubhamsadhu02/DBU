@@ -177,28 +177,29 @@ export default function Projects() {
                                     </div>
                                     <div className="content">
                                     <Link href="/projects/josh"><a>
-                                        <Image src="/images/projects/Josh.png" width={486} height={450} layout="responsive" />
+                                        <Image src="/images/projects/josh_ai.png" width={486} height={450} layout="responsive" />
                                         </a></Link>
                                     </div>
+                                    
                                 </div>
                             </div>
 
                             <div className='col-md-6'>
                                 <div className="product-wrapper eyentech-bg">
                                     <div className="product-wrapper--text">
-                                        <Link href="/projects/nalama"><a><h2 className='product-wrapper--title'>Nalama</h2></a></Link>
+                                        <Link href="/projects/nalama"><a><h2 className='product-wrapper--title'>Namalama</h2></a></Link>
                                         <p className='product-wrapper--subtitle'>Brand identity &amp; packaging for an alcohol brand</p>
                                     </div>
                                     <div className="content">
                                     <Link href="/projects/nalama"><a>
-                                        <Image src="/images/projects/Namalama.png" width={486} height={450} layout="responsive" />
+                                        <Image src="/images/projects/Namalama.png" width={500} height={450} layout="responsive" />
                                         </a></Link>
                                     </div>
                                 </div>
 
                             </div>
                             <div className='col-md-6'>
-                                <div className="product-wrapper bakul-bg">
+                                <div className="product-wrapper eyentech-bg">
                                     <div className="product-wrapper--text">
                                         <Link href="/projects/logofolio-2"><a><h2 className='product-wrapper--title'>Logofolio 2</h2></a></Link>
                                         <p className='product-wrapper--subtitle'>2019</p>
@@ -233,7 +234,7 @@ export default function Projects() {
                                     </div>
                                     <div className="content">
                                     <Link href="/projects/haituz"><a>
-                                        <Image src="/images/projects/Haituz.png" width={486} height={450} layout="responsive" objectFit='cover' />
+                                        <Image src="/images/projects/Haituz.png" width={550} height={450} layout="responsive" objectFit='cover' />
                                         </a></Link>
                                     </div>
                                 </div>
@@ -270,7 +271,7 @@ export default function Projects() {
                             <div className='col-md-6'>
                                 <div className="product-wrapper eyentech-bg">
                                     <div className="product-wrapper--text">
-                                        <Link href="/projects/intelia"><a><h2 className='product-wrapper--title'>Intelia</h2></a></Link>
+                                        <Link href="/projects/intelia"><a><h2 className='product-wrapper--title'>Intellia</h2></a></Link>
                                         <p className='product-wrapper--subtitle'>Branding & website for a germany based IT startup</p>
                                     </div>
                                     <div className="content">
@@ -291,6 +292,36 @@ export default function Projects() {
                                     <div className="content">
                                     <Link href="/projects/print-ads"><a>
                                         <Image src="/images/projects/Printads.png" width={486} height={450} layout="responsive" />
+                                        </a></Link>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='col-md-6'>
+                                <div className="product-wrapper eyentech-bg">
+                                    <div className="product-wrapper--text">
+                                        <Link href="/projects/print-ads"><a>
+                                        <h2 className='product-wrapper--title'>Fredo</h2></a></Link>
+                                        <p className='product-wrapper--subtitle'>News App • Brand Identity • Website & App Design </p>
+                                    </div>
+                                    <div className="content">
+                                    <Link href="/projects/print-ads"><a>
+                                        <Image src="/images/projects/fredo.png" width={550} height={450} layout="responsive" />
+                                        </a></Link>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='col-md-6'>
+                                <div className="product-wrapper bakul-bg">
+                                    <div className="product-wrapper--text">
+                                        <Link href="/projects/print-ads"><a>
+                                        <h2 className='product-wrapper--title'>Andy</h2></a></Link>
+                                        <p className='product-wrapper--subtitle'>Block chain Based Platform • Brand Identity • Branding</p>
+                                    </div>
+                                    <div className="content">
+                                    <Link href="/projects/print-ads"><a>
+                                        <Image src="/images/projects/andy.png" width={550} height={450} layout="responsive" />
                                         </a></Link>
                                     </div>
                                 </div>
