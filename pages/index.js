@@ -110,7 +110,7 @@ export default function Home() {
               <h2>What we do?</h2>
             </div>
             <div className="row whatwedo-lists">
-              <div className="col-sm-3">
+              <div className="col-sm-12 col-md-3 col-lg-3">
                 <img src="vector/Group.png" />
                 <h2>Branding</h2>
                 <div className="vertical-line">
@@ -120,7 +120,7 @@ export default function Home() {
                   <h3>Packaging</h3>
                 </div>
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-12 col-md-3 col-lg-3">
                 <img src="vector/Group (2).png" />
                 <h2>UX/UI</h2>
                 <div className="vertical-line">
@@ -130,7 +130,7 @@ export default function Home() {
                   <h3>Prototyping</h3>
                 </div>
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-12 col-md-3 col-lg-3">
                 <img src="vector/Group (3).png" />
                 <h2>Development</h2>
                 <div className="vertical-line">
@@ -140,7 +140,7 @@ export default function Home() {
                   <h3>Maintenance</h3>
                 </div>
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-12 col-md-3 col-lg-3">
                 <img src="vector/Group (6).png" />
                 <h2>Marketing</h2>
                 <div className="vertical-line">
