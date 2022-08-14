@@ -1520,4 +1520,8 @@ footer .copyright p {
     {
         width: 360px;
     }
+    .crafting ul li a
+    {
+        margin-right: 30px;
+    }
 }
