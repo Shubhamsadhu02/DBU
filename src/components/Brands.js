@@ -52,7 +52,7 @@ export default () => {
                     <div className="brands text-center">
                         <h2>Trusted by 150+ brands</h2>
                     </div>
-                    <div className="work-box">
+                    <div className="work-box mt-5">
                         <div className='row'>
                             
                                 {
