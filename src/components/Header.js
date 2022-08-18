@@ -32,7 +32,7 @@ export default function Header(props) {
     ]
     return (
         <>
-        <Navbar key='md' expand='md'  style={{background: isWhite ? '#000000' : '#FFFFFF'}}>
+        <Navbar key='md' expand='md'  style={{background: isWhite ? '#111a19' : '#FFFFFF'}}>
             <Container>
                 <Navbar.Brand href="/"><img src={isWhite ? '/images/logowhite.svg': '/images/logoblack.svg'}
                                             height={36} width={170}/></Navbar.Brand>
