@@ -5,6 +5,8 @@ import Link from 'next/link'
 import {Navbar, Offcanvas, Nav, Container} from "react-bootstrap";
 
 export default function Header(props) {
+    const isWhite = props.isWhite ?? false;
+
     const menuItems = [
         {
             title: 'About',
@@ -30,9 +32,9 @@ export default function Header(props) {
     ]
     return (
         <>
-        <Navbar key='md' expand='md'>
+        <Navbar key='md' expand='md'  style={{background: isWhite ? '#000000' : '#FFFFFF'}}>
             <Container>
-                <Navbar.Brand href="/"><img src='/images/logo.png'
+                <Navbar.Brand href="/"><img src={isWhite ? '/images/logowhite.svg': '/images/logoblack.svg'}
                                             height={36} width={170}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`}/>
                 <Navbar.Offcanvas

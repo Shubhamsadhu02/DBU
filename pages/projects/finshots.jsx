@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 
 export default function Finshots() {
   return (
     <main>
+        <Header/>
       <Banner background="url('/images/finshots/background.png')" title ={"Finshots"} subtitle ={"Branding • Advertising"} image={"/images/finshots/finshots.png"}/>
       <section className='section-margin'>
                 <div className="container">

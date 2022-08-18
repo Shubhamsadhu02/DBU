@@ -1,23 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 export default function Rain() {
     return (
         <main>
-            <section className='bg-cover banner' style={{ background: `url('/images/rain/db.png')` }}>
-                <div className="project-header">
-                    <div className="container">
-                        <div className="project-header--intro">
-                            <h1>Rain</h1>
-                            <p>Branding • UI/UX</p>
-                        </div>
-                    </div>
-                    <div className="project-banner-container">
-                        <Image className='project-banner' src="/images/rain/hero.png" height={256} width={510} />
-                    </div>
-                </div>
-
-            </section>
+            <Header/>
+            <Banner background={'#0D1131'} title ={"Rain"} subtitle ={"Rain • Branding • UI/UX"} image={"/images/rain/hero.png" }/>
             <section className='my-120'>
                 <div className="container">
                     <div className="team">

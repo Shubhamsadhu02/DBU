@@ -1,10 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 export default function LogofolioTwo() {
   return (
     <main>
+      <Header/>
       <Banner background={"#383C98"} title={"Logofolio 2"} />
 
       <section className='section-margin'>

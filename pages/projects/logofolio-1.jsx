@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Header from '../../src/components/Header'
 
 export default function LogofolioOne() {
   return (
     <main>
+      <Header/>
       <section style={{ background: '#231F20' }}>
         <div className="project-header">
           <div className="container project-header--intro">

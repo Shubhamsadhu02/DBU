@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 import Testimonial from '../../src/components/Testimonial'
 
 export default function Intelia() {
   return (
     <main>
+      <Header/>
       <Banner background={'#370606'} title="Intelia" subtitle="Branding • UI/UX" image={"/images/intelia/Intelia.png"} />
       <section className='section-margin'>
         <div className="container">

@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 import Testimonial from '../../src/components/Testimonial'
 
 export default function Namalama() {
   return (
     <main>
+      <Header/>
       <Banner background={'#050100'} title="Namalama" subtitle="Branding • Packaging" image={"/images/namalama/namalama.png"} />
 
       <section className='section-margin'>

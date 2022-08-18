@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 import Testimonial from '../../src/components/Testimonial'
 
 export default function Edulil() {
   return (
     <div>
+      <Header/>
       <Banner background={"#262261"} title="Edulil" subtitle="Branding • UI/UX" image="/images/edulil/Edulil.png" />
       
       <section className='section-margin'>

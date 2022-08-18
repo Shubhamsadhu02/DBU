@@ -4,7 +4,7 @@ import React from 'react'
 export default function Banner({ background, title, subtitle=null, image=null }) {
     // console.log(background);
     return (
-        <section style={{ background}}>
+        <section style={{ background, height: "316px"}}>
             <div className="container">
                 <div className="project-header">
                     <div className="row">

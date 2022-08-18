@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 export default function Dybo() {
     return (
         <main>
+            <Header/>
              <Banner background="url('/images/dybo/bg.svg')" title ={"Dybo"} subtitle ={"Branding • UI/UX"} image={"/images/dybo/hero.png" }/>
             <section className='my-120'>
                 <div className="container">

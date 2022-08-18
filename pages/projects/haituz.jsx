@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 import Testimonial from '../../src/components/Testimonial'
 
 export default function Haituz() {
   return (
     <main>
+      <Header/>
       <Banner background={'#231F20'} title="Hiatuz" subtitle="Branding • UI/UX" image="/images/hiatuz/Haituz.png" />
   <section className='section-margin'>
     <div className="container">

@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 export default function PrintAds() {
   return (
     <main>
+      <Header/>
       <Banner background="url('/images/print-ads/bg.png')" title={"Print Ads"} image={"/images/print-ads/printads.png"}/>
 
   <section className='my-120'>

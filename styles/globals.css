@@ -75,59 +75,6 @@ main {
     font-family: 'Objectivity', sans-serif;
 }
 
-/* header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 80px;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-    font-family: 'Objectivity', sans-serif;
-    font-style: normal;
-    background: #ffffff;
-}
-
-h1, h2, h3 {
-    font-family: 'Nunito sans', sans-serif;
-}
-
-
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    height: 4px;
-    float: right;
-}
-
-header ul li {
-    position: relative;
-    list-style: none;
-}
-
-header ul li a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    position: relative;
-    display: inline-block;
-    margin: 0 25px;
-    color: #6E7377;
-    text-decoration: none;
-} */
-
 .menu a
 {
     font-style: normal;
@@ -172,7 +119,7 @@ header ul li a {
 }
 
 /*Background*/
-.explore {
+/* .explore {
     background-image: url('/images/index/bg.png');
     overflow: hidden;
     max-width: 100%;
@@ -181,15 +128,57 @@ header ul li a {
 .bg {
     background-image: url('/vector/Background.png');
     background-size: cover;
+} */
+
+.explore
+{
+    position: relative;
+    z-index: 10;
+    background: #101010;
+    overflow: hidden;
+}
+
+.explore::after
+{
+    content: '';
+    position: absolute;
+    width: 950px;
+    height: 550px;
+    right: -450px;
+    bottom: 300px;
+
+    background: #24D5CB;
+    transform: rotate(-118.01deg);
+    opacity: 0.3;
+    filter: blur(434px);
+    z-index: -1;
+}
+
+.explore::before
+{
+    content: '';
+    position: absolute;
+    width: 850px;
+    height: 600px;
+    left: -250px;
+    bottom: 0;
+
+    background: #24D5CB;
+     opacity: 0.3;
+    filter: blur(434px);
+    z-index: -1;
 }
 
 
 /*Explore section*/
 .building {
-    height: 768px;
     color: #ffffff;
-    padding-top: 15rem;
     font-family: 'Nunito Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .building h1 {
@@ -204,13 +193,11 @@ header ul li a {
     color: #969BA0;
 }
 
-.building .box {
+.box {
     padding: 17px 40px;
     background: #FFFFFF;
     display: inline-flex;
     align-items: center;
-    width: 259px;
-    height: 59px;
     color: #101010;
     font-size: 18px;
     font-weight: bold;
@@ -383,10 +370,16 @@ header ul li a {
 
 
 .brand-img {
-    padding: 48px 56px;
+    width: 100%;
+    height: 123px;
+    
     border: 1px solid #DFE1EC;
     border-radius: 4px;
     margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .trusted .work-box ul li .fitbg2 {
@@ -553,10 +546,6 @@ footer {
 
 }
 
-.footer-wrapper {
-    padding: 90px 0px 80px;
-}
-
 footer h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
@@ -573,12 +562,6 @@ footer h2 {
     line-height: 33px;
     text-decoration-line: underline;
 
-}
-
-footer .icon {
-    margin-top: -130px;
-    position: relative;
-    float: right;
 }
 
 footer .icon svg {
@@ -1343,14 +1326,14 @@ footer .copyright p {
         font-size: 15px;
         margin: 0;
     }
-
-    footer {
-        height: 416px;
-        padding: 30px 20px 30px 20px;
+    .box
+    {
+        padding: 13px 33px;
+        font-size: 16px;
     }
 
-    .footer-wrapper {
-        padding: 32px 0px 100px;
+    footer {
+        padding: 30px 20px 30px 20px;
     }
     footer h1
     {
@@ -1393,8 +1376,9 @@ footer .copyright p {
         font-size: 35px;
     }
     .building p {
-        padding: 50px 0 25px 20px;
-        width: 96%;
+        padding: 50px 0 25px 0;
+        width: 96% !important;
+        left: 0!important;
     }
     .building ul li {
         padding: 12px;
@@ -1405,7 +1389,7 @@ footer .copyright p {
     }
     .building ul li h3
     {
-        font-size: 14px;
+        font-size: 18px;
     }
     .trusted .great h2, .featured .great h2
     {
@@ -1486,10 +1470,7 @@ footer .copyright p {
         height: 435px;
         width: 375px;
     }
-    .brand-img
-    {
-        padding: 15px 100px;
-    }
+
     .project-header .col-sm-12:nth-child(1){
         justify-content: center !important;
     }
@@ -1502,9 +1483,9 @@ footer .copyright p {
         padding: 0 !important;
     }
 
-    .building
+    .explore
     {
-        padding-top: 10rem
+        padding: 150px 10px !important;
     }
     .whatwedo-lists
     {
@@ -1523,5 +1504,9 @@ footer .copyright p {
     .crafting ul li a
     {
         margin-right: 30px;
+    }
+    .building ul
+    {
+        padding-left: 0 !important;
     }
 }

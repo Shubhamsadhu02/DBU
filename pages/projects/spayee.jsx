@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 export default function Spayee() {
     return (
         <main>
+            <Header/>
             <Banner background={'#2F2475'} title ={"Spayee"} subtitle ={"Branding • UI/UX"} image={"/images/spayee/hero.png" }/>
             <section className='section-margin'>
                 <div className="container">

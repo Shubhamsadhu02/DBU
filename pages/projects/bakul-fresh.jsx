@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 
 export default function BakulFresh() {
   return (
     <main>
+        <Header/>
       <Banner background={'#ED682E'} title ={"Bakul Fresh"} subtitle ={"Branding • UI/UX"} image={"/images/bakul-fresh/bakulfresh.png" }/>
       <section className='section-margin'>
                 <div className="container">

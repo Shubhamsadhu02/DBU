@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 import Testimonial from '../../src/components/Testimonial'
 
 export default function Josh() {
   return (
     <main>
+      <Header/>
       <Banner background={'#370E06' } title="Josh" subtitle="Branding • Advertising" image="/images/josh/josh.png" />
       <section className='section-margin'>
         <div className="container">

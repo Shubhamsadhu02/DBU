@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 
 export default function Vedose() {
   return (
     <main>
+      <Header/>
       <Banner background={'#102D20'} title ={"Ayurwadya"} subtitle ={"Branding • UI/UX"} image={"/images/vedose/ayurwadya.png" }/>
       <section className='section-margin'>
                 <div className="container">

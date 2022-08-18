@@ -1,16 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 import Testimonial from '../src/components/Testimonial'
+import Brands from '../src/components/Brands'
+import Header from '../src/components/Header'
 
 export default function Clients() {
   return (
     <>
+    <main>
+    <Header isWhite={true}/>
       <div>
-        <section className="explore">
-          <div className="container-fluid">
+        <section className="explore" style={{padding: "208px 150px"}}>
+          <div className="container-fluid" >
             <div className="building text-center">
               <h1>Good Design Makes <br />Business Growth Better</h1>
-              <p>Some from scratch and others reborn, these are some brands we have worked with, to create meaningful and magical experiences!</p>
+              <p style={{width: "680px"}}>Some from scratch and others reborn, these are some brands we have worked with, to create meaningful and magical experiences!</p>
               <ul>
                 <li>
                   <h2>25+</h2>
@@ -29,59 +33,7 @@ export default function Clients() {
           </div>
         </section>
         {/*Start Trusted by 150+ brands*/}
-        <section className='my-120'>
-          <div className="container">
-            <div className="trusted">
-              <div className="brands">
-                <h2>Worked with Some <br/> Great People</h2>
-              </div>
-              <div className="work-box">
-                <div className='row'>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-spayee.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-finshots.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-qoohoo.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-dyba.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-magtapp.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-alagrand.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-chintamoney.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                  <div className='col-md-3'>
-                    <div className="brand-img">
-                      <Image src="/images/index/brand-social-samosa.png" layout='responsive' width={259} height={123} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Brands/>
 
         <section className='my-120'>
           <div className="container">
@@ -112,7 +64,7 @@ export default function Clients() {
         <Testimonial content="DBU is full of out of the box thinkers. Whole team is gifted with ability to understand the soul and spirit of their client's ideas, re-creates those ideas and produce designs that exactly express what clients would have imagined in his mind. I recommend DBU whole heartedly."
         name={"Vikas Sethia"} designation={"Founder, Josh Community"} image="/images/index/user.png" />
       </div>
-
+      </main>
     </>
   )
 }

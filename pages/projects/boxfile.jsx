@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
+import Header from '../../src/components/Header'
 import Testimonial from '../../src/components/Testimonial'
 
 export default function Boxfile() {
   return (
     <main>
+
+      <Header/>
       <Banner background={'#002F3D'} title="Boxfile" subtitle="Branding • Advertising • UI/UX" image="/images/boxfile/Boxfile.png" />
 
       <section className='section-margin'>
