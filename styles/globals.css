@@ -1231,6 +1231,7 @@ footer .copyright p {
     .navbar-toggler
     {
         background-color: #FFFFFF !important;
+        opacity: .8;
     }
     
     .section-margin {
