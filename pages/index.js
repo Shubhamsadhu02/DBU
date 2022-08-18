@@ -161,8 +161,7 @@ export default function Home() {
       <Brands />
 
       
-      <Testimonial content="DBU is full of out of the box thinkers. Whole team is gifted with ability to understand the soul and spirit of their client's ideas, re-creates those ideas and produce designs that exactly express what clients would have imagined in his mind. I recommend DBU whole heartedly."
-        name={"Vikas Sethia"} designation={"Founder, Josh Community"} image="/images/index/user.png" />
+      <Testimonial />
       <section>
         <div className="container">
           <div className="social-media">

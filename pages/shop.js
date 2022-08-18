@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+import Header from '../src/components/Header'
 
 export default function Shop() {
   return (
     <main>
+      <Header />
       <section>
         <div className="container-fluid">
           <div className="crafting text-center">

@@ -10,7 +10,7 @@ export default function Footer(props) {
         <footer>
             <div className="container" style={{padding: "80px 0 20px 0"}}>
                
-                    <div className="d-flex justify-content-between align-items-center">
+                    <div className="footer d-flex justify-content-between align-items-center">
                         <div className='footer-wrapper'>
                             <h1>Have an Idea?</h1>
                         </div>
