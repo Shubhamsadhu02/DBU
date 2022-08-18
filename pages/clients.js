@@ -10,7 +10,7 @@ export default function Clients() {
     <main>
     <Header isWhite={true}/>
       <div>
-        <section className="explore" style={{padding: "208px 150px"}}>
+        <section className="explore explore1" style={{padding: "208px 150px"}}>
           <div className="container-fluid" >
             <div className="building text-center">
               <h1>Good Design Makes <br />Business Growth Better</h1>
