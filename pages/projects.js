@@ -59,7 +59,7 @@ export default function Projects() {
             "title": "Fredo",
             "description": "News App • Brand Identity • Website & App Design",
             "image": "/images/projects/fredo.png",
-            "link": "/projects/",
+            "link": "/projects/fredo",
             "backgroundColor": "eyentech-bg"
         },
         {
@@ -87,7 +87,7 @@ export default function Projects() {
             "title": "Andy",
             "description": "Block chain Based Platform • Brand Identity • Branding ",
             "image": "/images/projects/andy.png",
-            "link": "/projects/",
+            "link": "/projects/andy",
             "backgroundColor": "bakul-bg"
         },
         {

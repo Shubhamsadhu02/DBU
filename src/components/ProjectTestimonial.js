@@ -7,7 +7,7 @@ export default function ProjectTestimonial({ content, image, name, designation})
   return (
     <section className="my-120">
     <div className="container">
-      <div className="clients" style={{padding: "180px 70px"}}>
+      <div className="clients" style={{padding: "50px 80px"}}>
         <Image src="/images/quote.svg" height={33} width={38} />
         <p className='clients-review'>{content}</p>
         <div className="client-info">
