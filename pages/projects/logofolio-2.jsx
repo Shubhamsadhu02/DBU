@@ -207,8 +207,8 @@ export default function LogofolioTwo() {
         </div>
       </section>
       <section>
-        <div className="container">
-          <div className="logofolio-bottom">
+        <div className="container py-5">
+          <div className="thank">
             <p>Thanks for watching</p>
           </div>
         </div>
