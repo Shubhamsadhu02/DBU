@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
-import Testimonial from '../../src/components/Testimonial'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Edulil() {
   return (
@@ -78,7 +79,12 @@ export default function Edulil() {
           </div>
         </div>
       </section>
-      <Testimonial content="Creative, talented and professional is a rare combination – Sahil and his team have it all. Their work speaks for itself as you can tell with all their projects, and we couldn’t be happier with their branding work for Finshots!”" image="/images/edulil/Siddhant.png" name="Siddhant Bansal" designation="Founder, Edulil" />
+
+      <ProjectTestimonial content="Creative, talented and professional is a rare combination – Sahil and his team have it all. Their work speaks for itself as you can tell with all their projects, and we couldn’t be happier with their branding work for Finshots!”"
+       image="/images/index/testimonial/siddhant.png" name="Siddhant Bansal" designation="Founder, Edulil" />
+
+<NextProject ProjectName="Windo" link="/projects/windo" />
+
     </div>
 
   )

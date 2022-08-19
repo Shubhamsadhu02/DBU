@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import NextProject  from '../../src/components/NextProject'
 
 export default function cCicktracker() {
   return (
@@ -56,13 +57,9 @@ export default function cCicktracker() {
           </div>
         </div>
       </section>
-      <section>
-        <div className="next-project text-center">
-          <h3>NEXT PROJECT</h3>
-          <h1>Josh</h1>
-          <a href="Josh.html"><i className="far fa-arrow-right" /></a>
-        </div>
-      </section>
+      
+      <NextProject ProjectName="Josh" link="/projects/josh" />
+
     </main>
 
   )

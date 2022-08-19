@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
-import Testimonial from '../../src/components/Testimonial'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Boxfile() {
   return (
@@ -88,7 +89,10 @@ export default function Boxfile() {
             </div>
           </div>
         </div></section>
-      <Testimonial content="Worked with DB Universe for our design requirements and they were really professional throughout the development process and their outputs were simply world class." image="/images/boxfile/Marc_Bramon.svg" name={"Senthilkumar M. Jegadeeswaran"} designation="Co-founder, Boxfile" />
+        <ProjectTestimonial content="Worked with DB Universe for our design requirements and they were really professional throughout the development process and their outputs were simply world class."
+       image="/images/index/testimonial/senthilkumar.png" name="Senthilkumar M. Jegadeeswaran " designation="Co - founder, Boxfile" />
+
+      <NextProject ProjectName="Cricktracker" link="/projects/cricktracker" />
 
     </main>
 

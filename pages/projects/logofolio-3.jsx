@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import NextProject  from '../../src/components/NextProject'
 
 
 export default function LogofolioThree() {
@@ -191,13 +192,9 @@ export default function LogofolioThree() {
           </div>
         </div>
       </section>
-      <section className='section-margin'>
-        <div className="container">
-          <div className="logofolio-bottom">
-            <h1>Thanks for watching</h1>
-          </div>
-        </div>
-      </section>
+
+      <NextProject ProjectName="Edulil" link="/projects/edulil" />
+
     </main>
 
   )

@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Dybo() {
     return (
@@ -184,30 +186,11 @@ export default function Dybo() {
             </section>
 
 
+            <ProjectTestimonial content="We worked with DB Universe on the redesign of the Dybo.io Platform. It was a pleasure to work with them. Their design helped boost our conversion rate, and they brought design knowledge to the table that helped us understand how to make our product design-driven."
+       image="/images/index/testimonial/dhawal.png" name="Dhawal Jain" designation="Founder & CEO, Dybo" />
 
-            <section>
-                <div className="container">
-                    <div className="clients" style={{ background: 'none' }}>
-                        <Image src="/images/quote.svg" height={38} width={38} />
-                        <p>DB Universe team is full of talented designers. More importantly, they are very patient, accommodating and an absolute delight to work with. They came highly recommended and worked diligently on our project.</p>
-                        <div className='row'>
-                            <Image src="/images/dybo/client.svg" height={80} width={80} />
-                            <div className="col-8">
-                                <h3>Sandeep Singh</h3>
-                                <h4>Co-founder, dybo</h4>
-                            </div>
-                        </div>
 
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div className="next-project text-center">
-                    <h3>NEXT PROJECT</h3>
-                    <h1>Finshots</h1>
-                    <a href="Finshots.html"><i className="far fa-arrow-right" /></a>
-                </div>
-            </section>
+<NextProject ProjectName="Rain" link="/projects/rain" />
         </main>
 
     )

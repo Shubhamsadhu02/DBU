@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
-import Testimonial from '../../src/components/Testimonial'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Namalama() {
   return (
@@ -52,7 +53,12 @@ export default function Namalama() {
           </div>
         </div>
       </section>
-      <Testimonial content="Working with DBU was a creatively satisfying experience. As a young entrepreneur you need designers who can be readily available to have conversation with whenever an idea arises and to DBU's credit, always was, to contribute and streamline our thoughts into living." image="/images/namalama/karan.png" name="Karan Desai" designation="Founder, Nama Lama" />
+
+      <ProjectTestimonial content="Working with DBU was a creatively satisfying experience. As a young entrepreneur you need designers who can be readily available to have conversation with whenever an idea arises and to DBU's credit, always was, to contribute and streamline our thoughts into living."
+       image="/images/index/testimonial/karan.png" name="Karan Desai" designation="Founder, Nama Lama" />
+
+      <NextProject ProjectName="Edulil" link="/projects/edulil" />
+
     </main>
 
   )

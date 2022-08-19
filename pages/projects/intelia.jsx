@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
-import Testimonial from '../../src/components/Testimonial'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Intelia() {
   return (
@@ -57,9 +58,15 @@ export default function Intelia() {
               <Image height={3131} width={1096} layout="responsive" src="/images/intelia/landing.png" />
             </div>
           </div>
-        </div></section>
-      <Testimonial content="They are good listeners before they do. They have done exactly what we wanted with our website. DBU is one of the best creative places to work with."
-        name={"Marc Bramon"} designation={"Co-founder, Intelia"} image="/images/intelia/Marc_Bramon.svg" />
+        </div>
+        </section>
+
+
+        <ProjectTestimonial content="They are good listeners before they do. They have done exactly what we wanted with our website. DBU is one of the best creative places to work with."
+       image="/images/index/testimonial/marc.png" name="Marc Bramon" designation="Co-founder, Intelia" />
+
+<NextProject ProjectName="Boxfile" link="/projects/boxfile" />
+
     </main>
 
   )

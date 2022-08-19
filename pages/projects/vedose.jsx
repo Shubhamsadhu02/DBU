@@ -2,18 +2,20 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Vedose() {
   return (
     <main>
       <Header/>
-      <Banner background={'#102D20'} title ={"Ayurwadya"} subtitle ={"Branding • UI/UX"} image={"/images/vedose/ayurwadya.png" }/>
+      <Banner background={'#102D20'} title ={"Vedose"} subtitle ={"Branding • UI/UX"}/>
       <section className='section-margin'>
                 <div className="container">
                     <div className="team">
                         <div className="work1 work3">
                             <h2>About</h2>
-                            <p>Ayurwayda is an ayurvedic telemedicine platform where patients can register and consult.  Ayurveda doctors can consult with patients through the phone, chat, or video call. They&apos;re establishing a platform for many people seeking traditional Ayurvedic solutions. 
+                            <p>Vedose is an ayurvedic telemedicine platform where patients can register and consult. Vedose doctors can consult with patients through the phone, chat, or video call. They're establishing a platform for many people seeking traditional Ayurvedic solutions.  
                                 </p>
                         </div>
                         <div>
@@ -83,31 +85,11 @@ export default function Vedose() {
                 </div>
             </section>
 
-            <section className='section-margin'>
-                <div className="container">
-                    <div className="clients" style={{ background: 'none' }}>
-                        <Image src="/images/quote.svg" height={38} width={38} />
-                        <p>It was a pleasure working with DBU. I&apos;m always impressed by their tireless commitment to the costumers. The whole team is  friendly, reliable and polite always endeavoring young designer. I am glad to work with them, thank you DBU!
-                            </p>
-                        <div className='row'>
-                            <Image src="/images/vedose/Bhanu.png" height={80} width={80} />
-                            <div className="col-8">
-                                <h3>Bhanu Prakash</h3>
-                                <h4>Founder, Ayurwayda</h4>
-                            </div>
-                        </div>
+            <ProjectTestimonial content="It was a pleasure working with DBU. I'm always impressed by their tireless commitment to the costumers. The whole team is  friendly, reliable and polite always endeavoring young designer. I am glad to work with them, thank you DBU!"
+       image="/images/index/testimonial/bhanuprakash.png" name="Bhanu Prakash" designation="Founder, Vedose" />
 
-                    </div>
-                </div>
-            </section>
 
-          <section>
-                <div className="next-project text-center">
-                    <h3>NEXT PROJECT</h3>
-                    <h1>Intelia</h1>
-                    <a><i className="far fa-arrow-right" /></a>
-                </div>
-            </section>
+<NextProject ProjectName="Intelia" link="/projects/intelia" />
     </main>
   )
 }

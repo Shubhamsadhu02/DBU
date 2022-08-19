@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Eynetech() {
     return (
@@ -147,30 +149,10 @@ export default function Eynetech() {
                     </div>
                 </section>
 
-                <section className='section-margin'>
-                    <div className="container">
-                        <div className="clients" style={{ background: 'none' }}>
-                            <Image src="/images/quote.svg" height={38} width={38} />
-                            <p>Working with DBU has been a polarizing experience. DBU’s attention to detail towards the requirement is as clean as it can get. We have launched a couple of brands together, their idea and thought process has been good.
-                            </p>
-                            <div className='row'>
-                                <Image src="/images/bakul-fresh/jobin.png" height={80} width={80} />
-                                <div className="col-8">
-                                    <h3>Jobin Johny</h3>
-                                    <h4>Founder, Eynetech</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+       <ProjectTestimonial content="Working with DBU has been a polarizing experience. DBU’s attention to detail towards the requirement is as clean as it can get. We have launched a couple of brands together, their idea and thought process has been good."
+       image="/images/index/testimonial/jobin.png" name="Jobin Johny" designation="Founder, Eynetech" />
 
-                <section>
-                    <div className="next-project text-center">
-                        <h3>NEXT PROJECT</h3>
-                        <h1>Bakul Fresh</h1>
-                        <a href="#"><i className="far fa-arrow-right" /></a>
-                    </div>
-                </section>
+<NextProject ProjectName="Bakul Fresh" link="/projects/bakul-fresh" />
         </main>
     )
 }

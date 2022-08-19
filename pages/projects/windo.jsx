@@ -2,12 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Windo() {
   return (
     <main>
       <Header/>
-      <Banner background={"#242536"} title="Windo" subtitle={"Branding • UI/UX"} />
+      <Banner background={"#242536"} title="Windo" subtitle={"Branding • UI/UX"} image={"/images/windo/windo.png"} />
   <section className='section-margin'>
     <div className="container">
       <div className="team">
@@ -84,11 +86,21 @@ export default function Windo() {
         </div>
         <br />
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved2.png" />
+          <Image height={468} width={1096} layout="responsive" src="/images/windo/solved2.png" />
         </div>
-        <br />
+      </div>
+    </div>
+  </section>
+
+  <section className='section-margin'>
+    <div className="container">
+      <div className="team">
+        <div className="work1 work3">
+          <h2>Style Guide</h2>
+          <p>To ensure a consistent look across all screens, we first designed a UI kit that included all of the colours, font, buttons, icon set, and other elements.</p>
+        </div>
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved3.png" />
+          <Image height={1394} width={1096} layout="responsive" src="/images/windo/solved3.png" />
         </div>
         <br />
         <div>
@@ -104,23 +116,17 @@ export default function Windo() {
         </div>
         <br />
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved7.png" />
+          <Image height={768} width={1096} layout="responsive" src="/images/windo/solved7.png" />
         </div>
       </div>
     </div>
   </section>
-  <section className='section-margin'>
-    <div className="container">
-      <div className="clients" style={{background: 'none'}}>
-        <img src="vector/“.png" className="fitbg4" />
-        <p>good. experience working with sahil for some xdesign requirements. prompt on timelines and was responsive. totally would recommend.
-        </p>
-        <img src="vector/Windo/silus.png" className="fitbg5" />
-        <h3>Silus Reddy Chintapalli</h3>
-        <h4>Founder, Windo</h4>
-      </div>
-    </div>
-  </section>
+
+  <ProjectTestimonial content="good. experience working with sahil for some xdesign requirements. prompt on timelines and was responsive. totally would recommend."
+       image="/images/index/testimonial/silus.png" name="Silus Reddy Chintapalli" designation="founder, Windo" />
+
+<NextProject ProjectName="Haituz" link="/projects/haituz" />
+
 </main>
 
   )

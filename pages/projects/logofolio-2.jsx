@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import NextProject  from '../../src/components/NextProject'
 
 export default function LogofolioTwo() {
   return (
@@ -212,6 +213,8 @@ export default function LogofolioTwo() {
           </div>
         </div>
       </section>
+
+      <NextProject ProjectName="Logofolio 3" link="/projects/logofolio-3" />
 
     </main>
   )

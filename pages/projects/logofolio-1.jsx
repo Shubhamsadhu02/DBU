@@ -1,18 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Header from '../../src/components/Header'
+import Banner from '../../src/components/Banner'
+import NextProject  from '../../src/components/NextProject'
 
 export default function LogofolioOne() {
   return (
     <main>
       <Header/>
-      <section style={{ background: '#231F20' }}>
-        <div className="project-header">
-          <div className="container project-header--intro">
-            <h1>Logofolio 1</h1>
-          </div>
-        </div>
-      </section>
+      <Banner background={'#2A2B31'} title ={"Logofolio 1"} />
 
       <section className='my-120'>
         <div className="container">
@@ -64,13 +60,8 @@ export default function LogofolioOne() {
           </div>
         </div>
       </section>
-      <section>
-        <div className="next-project text-center">
-          <h3>NEXT PROJECT</h3>
-          <h1>Edulil</h1>
-          <a href="#"><i className="far fa-arrow-right" /></a>
-        </div>
-      </section>
+
+      <NextProject ProjectName="Logofolio 2" link="/projects/logofolio-2" />
     </main>
   )
 }

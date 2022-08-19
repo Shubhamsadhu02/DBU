@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Spayee() {
     return (
@@ -112,29 +114,12 @@ export default function Spayee() {
                 </div>
 
             </section>
-            <section className='section-margin'>
-                <div className="container">
-                    <div className="clients" style={{ background: 'none' }}>
-                        <Image src="/images/quote.svg" height={38} width={38} />
-                        <p>DB Universe team is full of talented designers. More importantly, they are very patient, accommodating and an absolute delight to work with. They came highly recommended and worked diligently on our project.</p>
-                        <div className='row'>
-                            <Image src="/images/spayee/client.svg" height={80} width={80} />
-                            <div className="col-8">
-                                <h3>Sandeep Singh</h3>
-                                <h4>Co-founder, Spayee</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
+
+            <ProjectTestimonial content="DB Universe team is full of talented designers. More importantly, they are very patient, accommodating and an absolute delight to work with. They came highly recommended and worked diligently on our project."
+       image="/images/index/testimonial/sandeep.png" name="Sandeep Singh" designation="Co-founder, Spayee" />
             
-            <section>
-                <div className="next-project text-center">
-                    <h3>NEXT PROJECT</h3>
-                    <h1>Finshots</h1>
-                    <a href="Finshots.html"><i className="far fa-arrow-right" /></a>
-                </div>
-            </section>
+            <NextProject ProjectName="Finshots" link="/projects/finshots" />
         </main>
 
     )

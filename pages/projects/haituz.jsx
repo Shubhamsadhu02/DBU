@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
-import Testimonial from '../../src/components/Testimonial'
+import ProjectTestimonial from '../../src/components/ProjectTestimonial'
+import NextProject  from '../../src/components/NextProject'
 
 export default function Haituz() {
   return (
@@ -86,14 +87,12 @@ export default function Haituz() {
       </div>
     </div>
   </section>
-  <Testimonial content="What we love most about working with DB Universe is how well they grasps our viewpoint and translates it into the designs! It feels great to be able to trust that your work is in good hands and just relax knowing that the output is going to be just great!" image="/images/hiatuz/shanti.png" name="Shanti Bayyavarapu" designation="Co-founder, Hiatuz" />
-  <section>
-    <div className="next-project text-center">
-      <h3>NEXT PROJECT</h3>
-      <h1>Print Ads</h1>
-      <a href="Print.html"><i className="far fa-arrow-right" /></a>
-    </div>
-  </section>
+
+  <ProjectTestimonial content="What we love most about working with DB Universe is how well they grasps our viewpoint and translates it into the designs! It feels great to be able to trust that your work is in good hands and just relax knowing that the output is going to be just great!"
+       image="/images/index/testimonial/shanti.png" name="Shanti Bayyavarapu" designation="Co-founder, Hiatuz" />
+
+<NextProject ProjectName="Print Ads" link="/projects/print-ads" />
+
 </main>
 
   )

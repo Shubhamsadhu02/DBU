@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Banner from '../../src/components/Banner'
 import Header from '../../src/components/Header'
+import NextProject  from '../../src/components/NextProject'
+
 
 export default function PrintAds() {
   return (
@@ -18,7 +20,7 @@ export default function PrintAds() {
       </div>
     </div>
   </section>
-  <section>
+  <section className='my-120'>
     <div className="container">
       <div className="print-ads-list">
         <div className='row'>
@@ -128,13 +130,8 @@ export default function PrintAds() {
       </div>
     </div>
   </section>
-  <section>
-    <div className="next-project text-center">
-      <h3>NEXT PROJECT</h3>
-      <h1>Edulil</h1>
-      <a href="#"><i className="far fa-arrow-right" /></a>
-    </div>
-  </section>
+
+  <NextProject ProjectName="Edulil" link="/projects/edulil" />
     </main>
   )
 }
