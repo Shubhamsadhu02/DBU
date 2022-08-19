@@ -4,6 +4,164 @@ import Link from 'next/link'
 import Header from '../src/components/Header'
 
 export default function Projects() {
+
+    const cards=[
+        {
+            "title": "Spayee",
+            "description": "Edtech • Branding • Website",
+            "image": "/images/index/spayee.png",
+            "link": "/projects/spayee",
+            "backgroundColor": "spayee-bg"
+        },
+        {
+            "title": "Finshots",
+            "description": "Financial News Application • Branding ",
+            "image": "/images/index/finshots.png",
+            "link": "/projects/finshots",
+            "backgroundColor": "finshots-bg"
+        },
+        {
+            "title": "Dybo",
+            "description": "AR Product • Branding • UI/UX Design ",
+            "image": "/images/index/dybo.png",
+            "link": "/projects/dybo",
+            "backgroundColor": "dybo-bg"
+        },
+        {
+            "title": "Rain Pay",
+            "description": "Fintech • Digital Ads • Website Design",
+            "image": "/images/index/rain-pay.png",
+            "link": "/projects/rain",
+            "backgroundColor": "rain-pay-bg"
+        },
+        {
+            "title": "Eynetech",
+            "description": "IT Industry • Branding • Website Design",
+            "image": "/images/index/eyentech.png",
+            "link": "/projects/eynetech",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Bakul Fresh",
+            "description": "Agritech Product • Branding • UI/UX Design",
+            "image": "/images/index/bakul.png",
+            "link": "/projects/bakul-fresh",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Battle XO",
+            "description": "Gaming Industry • Web App • UI/UX Design",
+            "image": "/images/projects/Battlexo.png",
+            "link": "/projects/battle-xo",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Fredo",
+            "description": "News App • Brand Identity • Website & App Design",
+            "image": "/images/projects/fredo.png",
+            "link": "/projects/",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Logofolio 3",
+            "description": "2020",
+            "image": "/images/projects/Logofolio3.png",
+            "link": "/projects/logofolio-3",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Box File",
+            "description": "IT Industry • Brand Identity • Branding • Website Design",
+            "image": "/images/projects/Boxfile.png",
+            "link": "/projects/boxfile",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Crictracker",
+            "description": "Collaboration with the leading cricket news website",
+            "image": "/images/projects/Crictracker.png",
+            "link": "/projects/cricktracker",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Andy",
+            "description": "Block chain Based Platform • Brand Identity • Branding ",
+            "image": "/images/projects/andy.png",
+            "link": "/projects/",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Namalama",
+            "description": "Alcohol Brand • Branding • Packaging Design",
+            "image": "/images/projects/Namalama.png",
+            "link": "/projects/namalama",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Logofolio 2",
+            "description": "2019",
+            "image": "/images/projects/Logofolio2.png",
+            "link": "/projects/logofolio-2",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Windo",
+            "description": "E-Commerce • Branding • UI/UX Design",
+            "image": "/images/projects/Windo.png",
+            "link": "/projects/windo",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Haituz",
+            "description": "Edutech • Brand Identity • Website Design",
+            "image": "/images/projects/Haituz.png",
+            "link": "/projects/haituz",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Logofolio 1",
+            "description": "2018",
+            "image": "/images/projects/Logofolio1.png",
+            "link": "/projects/logofolio-1",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Print Ads",
+            "description": "Minimal Print Ads",
+            "image": "/images/projects/Printads.png",
+            "link": "/projects/print-ads",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Intellia",
+            "description": "IT Start up • Brand Identity • Website Design",
+            "image": "/images/projects/Intelia.png",
+            "link": "/projects/intelia",
+            "backgroundColor": "eyentech-bg"
+        },
+        {
+            "title": "Edulil",
+            "description": "Kids E-Platform • Brand Identity • Website Design",
+            "image": "/images/projects/Edulil.png",
+            "link": "/projects/edulil",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Vedose",
+            "description": "E-Pharma • Branding • Website Design",
+            "image": "/images/projects/Vedose.png",
+            "link": "/projects/vedose",
+            "backgroundColor": "bakul-bg"
+        },
+        {
+            "title": "Josh",
+            "description": "Brand identity for a social community",
+            "image": "/images/projects/josh_girl.png",
+            "link": "/projects/josh",
+            "backgroundColor": "bakul-bg"
+        },
+    ]
+
     return (
         <div>
             <Head>
@@ -28,32 +186,52 @@ export default function Projects() {
 
             <section>
                 <div className="container">
-                    {/* <div className="work">
-                        <h2>Our Works</h2>
-                        <p className='col-md-6 col-sm-12'>Our team of innovative thinkers and UI UX experts build results driven and user-centric designs. The work we do makes a difference, and it is this difference that drives us</p>
-                    </div> */}
+                   
                     <div className="work-box" style={{marginBottom: "10rem"}}>
-                        <div className='row'>
-                            <div className='col-md-6'>
-                                <div className="product-wrapper spayee-bg">
+                        <div className='row' style={{rowGap: "2rem"}}>
+                            {
+                                cards.map((ele) => {
+                                    return <div className='col-sm-12 col-md-6 col-lg-6'>
+                                                <Link href={ele.link}><div className="product-wrapper finshots-bg">
+                                                    <div className="box-bg" style={{background: `url(${ele.image})`}}>
+                                                        <div className="product-wrapper--text">
+                                                            <Link href={ele.link}><a><h2 className='product-wrapper--title'>{ele.title}</h2></a></Link>
+                                                            <p className='product-wrapper--subtitle'>{ele.description}</p>
+                                                        </div>
+                                                    </div> 
+                                                </div></Link>
+                                            </div>
+                            })
+                            }
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* <section>
+                <div className="container">
+                   
+                    <div className="work-box" style={{marginBottom: "10rem"}}>
+                        <div className='row' style={{rowGap: "2rem"}}>
+                            <div className='col-md-6 col-lg-6 spayee-bg'>
+                                <div className="product-wrapper" style={{background: "url('/images/index/spayee.png')"}}>
                                     <div className="product-wrapper--text">
                                         <Link href="/projects/spayee" ><a><h2 className='product-wrapper--title'>Spayee</h2></a></Link>
                                         <p className='product-wrapper--subtitle'>Branding &amp; website design for an edutech startup</p>
                                     </div>
-                                    <div className="content">
-                                     <Link href={"/projects/spayee"}><a><Image src="/images/index/spayee.png" width={486} height={450} layout="responsive" /></a></Link>
-                                    </div>
+                                    
                                 </div>
                             </div>
-                            <div className='col-md-6 '>
+                            <div className='col-md-6'>
                                 <div className="product-wrapper finshots-bg">
-                                    <div className="product-wrapper--text">
-                                        <Link href="/projects/finshots"><a><h2 className='product-wrapper--title'>Finshots</h2></a></Link>
-                                        <p className='product-wrapper--subtitle'>Brand identity for a financial short news application</p>
+                                    <div className="box-bg" style={{background: "url('/images/index/finshots.png')"}}>
+                                        <div className="product-wrapper--text">
+                                            <Link href="/projects/finshots"><a><h2 className='product-wrapper--title'>Finshots</h2></a></Link>
+                                            <p className='product-wrapper--subtitle'>Brand identity for a financial short news application</p>
+                                        </div>
                                     </div>
-                                    <div className="content">
-                                        <Link href="/projects/finshots"><a><Image src="/images/index/finshots.png" width={486} height={450} layout="responsive" /></a></Link>
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div className='col-md-6'>
@@ -331,7 +509,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

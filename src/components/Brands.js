@@ -56,7 +56,7 @@ export default () => {
                         <div className='row'>
                             
                                 {
-                                    brands.map((ele, index) => { 
+                                    brands.map((ele) => { 
                                     return  <div className='col-sm-12 col-md-3 col-lg-3'>
                                                 <div className="brand-img">
                                                     <img src={ele.image} alt="" />

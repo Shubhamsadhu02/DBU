@@ -254,11 +254,18 @@ main {
     display: flex;
 }
 .product-wrapper {
-    padding-top: 40px;
-    padding-right: 0px;
-    margin-top: 40px;
     height: 580px;
     overflow: hidden;
+
+    cursor: pointer;
+}
+
+.box-bg
+{
+    height: 580px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: bottom !important;
 }
 
 .spayee-bg {
@@ -292,6 +299,7 @@ main {
 .product-wrapper--text
 {
     padding-left: 40px;
+    padding-top: 40px;
 }
 
 .product-wrapper--title {
@@ -1320,10 +1328,16 @@ footer .copyright p {
         height: 60px;
     }
 
-    .product-wrapper
+    .product-wrapper,
+    .box-bg
     {
         height: 465px;
     }
+    .product-wrapper--text
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
 
     .social-media ul
     {
