@@ -19,7 +19,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/elephant.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-1.png" />
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function LogofolioThree() {
                 as USD, Euro, INR and MYR.&nbsp;</p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/acex.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-2.png" />
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/logo.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-3.png" />
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/logo2.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-4.png" />
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/filero.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-5.png" />
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/orange.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-6.png" />
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/filluv.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-7.png" />
             </div>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/vidya.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-8.png" />
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/media.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-9.png" />
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/prakit.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-10.png" />
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/orbit.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-11.png" />
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/system.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-12.png" />
             </div>
           </div>
         </div>
@@ -187,8 +187,16 @@ export default function LogofolioThree() {
               </p>
             </div>
             <div>
-              <Image height={812} width={1096} src="/images/logofolio-3/port.png" />
+              <Image height={812} width={1096} src="/images/logofolio-3/img-13.png" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container py-5">
+          <div className="thank">
+            <p>Thanks for watching</p>
           </div>
         </div>
       </section>

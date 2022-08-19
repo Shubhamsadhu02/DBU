@@ -55,7 +55,12 @@ export default function LogofolioOne() {
           <div>
             <Image src="/images/logofolio-1/img-11.png" height={620} width={1096} layout="responsive" />
           </div>
-          <div className="logofolio-bottom">
+        </div>
+      </section>
+
+      <section>
+        <div className="container py-5">
+          <div className="thank">
             <p>Thanks for watching</p>
           </div>
         </div>

@@ -1245,11 +1245,16 @@ footer .copyright p {
     width: 100%;
 }
 
-.josh-girl--img
+.thank p
 {
-    position: relative;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    text-align: center;
+    color: #383C98;
 }
-
 
 @media (max-width: 500px){
     
@@ -1556,5 +1561,10 @@ footer .copyright p {
     .next-project
     {
         padding: 55px 40px;
+    }
+
+    .thank p
+    {
+        font-size: 30px;
     }
 }
