@@ -319,15 +319,21 @@ main {
     position: relative;
 }
 
-.view-all {
+.view-all button{
     margin: 0 auto;
     margin-top: 60px;
     text-align: center;
     border: 1px solid #101010;
-    width: 185px;
-    height: 55px;
+    background: none;
     display: block;
     padding: 16px 56px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #101010;
 }
 
 

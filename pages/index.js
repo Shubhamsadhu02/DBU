@@ -27,83 +27,96 @@ export default function Home() {
         <div className="container">
           <div className="work">
             <h2>Our Works</h2>
-            <p className='col-md-6 col-sm-12'>Our team of innovative thinkers and UI UX experts build results driven and user-centric designs. The work we do makes a difference, and it is this difference that drives us</p>
+            <p className='col-md-6'>Our team of innovative thinkers and UI UX experts build results driven and user-centric designs. The work we do makes a difference, and it is this difference that drives us</p>
           </div>
           <div className="work-box">
-            <div className='row'>
-              <div className='col-md-6'>
-                <div className="product-wrapper spayee-bg">
-                  <div className="product-wrapper--text">
-                    <Link href="/projects/spayee" ><a><h2 className='product-wrapper--title'>Spayee</h2></a></Link>
-                    <p className='product-wrapper--subtitle'>Branding &amp; website design for an edutech startup</p>
+            <div className='row' style={{rowGap: "2rem"}}>
+              <div className='col-sm-12 col-md-6 col-lg-6'>
+                <Link href="/projects/spayee">
+                  <div className="product-wrapper spayee-bg">
+                    <div className="box-bg" style={{background: "url('/images/index/spayee.png')"}}>
+                      <div className="product-wrapper--text">
+                        <Link href="/projects/spayee"><a><h2 className='product-wrapper--title'>Spayee</h2></a></Link>
+                        <p className='product-wrapper--subtitle'>Branding & website design for an edutech startup</p>
+                      </div>
+                    </div> 
                   </div>
-                  <div className="content">
-                    <Link href="/projects/spayee"><a><Image src="/images/index/spayee.png" width={486} height={450} layout="responsive" /></a></Link>
-                  </div>
-                </div>
+                </Link>
               </div>
-              <div className='col-md-6'>
-                <div className="product-wrapper finshots-bg">
-                  <div className="product-wrapper--text">
-                    <Link href="/projects/finshots"><a><h2 className='product-wrapper--title'>Finshots</h2></a></Link>
-                    <p className='product-wrapper--subtitle'>Brand identity for a financial short news application</p>
+            
+              <div className='col-sm-12 col-md-6 col-lg-6'>
+                <Link href="/projects/finshots">
+                  <div className="product-wrapper finshots-bg">
+                    <div className="box-bg" style={{background: "url('/images/index/finshots.png')"}}>
+                      <div className="product-wrapper--text">
+                        <Link href="/projects/finshots"><a><h2 className='product-wrapper--title'>Finshots</h2></a></Link>
+                        <p className='product-wrapper--subtitle'>Brand identity for a financial short news application</p>
+                      </div>
+                    </div> 
                   </div>
-                  <div className="content">
-                    <Link href="/projects/finshots"><a><Image src="/images/index/finshots.png" width={486} height={450} layout="responsive" /></a></Link>
-                  </div>
-                </div>
+                </Link>
               </div>
-              <div className='col-md-6'>
-                <div className="product-wrapper dybo-bg">
-                  <div className="product-wrapper--text">
-                    <Link href="/projects/dybo"><a><h2 className='product-wrapper--title'>Dybo</h2></a></Link>
-                    <p className='product-wrapper--subtitle'>Branding, UI/UX &amp; icon designs for an AR product</p>
-                  </div>
-                  <div className="content">
-                    <Link href="/projects/dybo"><a><Image src="/images/index/dybo.png" width={486} height={450} layout="responsive" /></a></Link>
-                  </div>
-                </div>
 
+              <div className='col-sm-12 col-md-6 col-lg-6'>
+                <Link href="/projects/dybo">
+                  <div className="product-wrapper finshots-bg">
+                    <div className="box-bg" style={{background: "url('/images/index/dybo.png')"}}>
+                      <div className="product-wrapper--text">
+                        <Link href="/projects/dybo"><a><h2 className='product-wrapper--title'>Dybo</h2></a></Link>
+                        <p className='product-wrapper--subtitle'>Branding, UI/UX &amp; icon designs for an AR product</p>
+                      </div>
+                    </div> 
+                  </div>
+                </Link>
               </div>
-              <div className='col-md-6'>
-                <div className="product-wrapper rain-pay-bg">
-                  <div className="product-wrapper--text">
-                    <Link href="/projects/rain"><a><h2 className='product-wrapper--title'>Rain Pay</h2></a></Link>
-                    <p className='product-wrapper--subtitle'>Landing page &amp; digital ads for US based fintech product</p>
-                  </div>
-                  <div className="content">
-                  <Link href="/projects/rain"><a><Image src="/images/index/rain-pay.png" width={486} height={450} layout="responsive" /></a></Link>
-                  </div>
-                </div>
 
+              <div className='col-sm-12 col-md-6 col-lg-6'>
+                <Link href="/projects/rain">
+                  <div className="product-wrapper finshots-bg">
+                    <div className="box-bg" style={{background: "url('/images/index/rain-pay.png')"}}>
+                      <div className="product-wrapper--text">
+                        <Link href="/projects/rain"><a><h2 className='product-wrapper--title'>Rain Pay</h2></a></Link>
+                        <p className='product-wrapper--subtitle'>Landing page &amp; digital ads for US based fintech product</p>
+                      </div>
+                    </div> 
+                  </div>
+                </Link>
               </div>
-              <div className='col-md-6'>
-                <div className="product-wrapper eyentech-bg">
-                  <div className="product-wrapper--text">
-                    <Link href="/projects/eynetech"><a><h2 className='product-wrapper--title'>Eynetech</h2></a></Link>
-                    <p className='product-wrapper--subtitle'>Branding &amp; website design for an IT industry</p>
-                  </div>
-                  <div className="content">
-                  <Link href="/projects/eynetech"><a><Image src="/images/index/eyentech.png" width={486} height={450} layout="responsive" /></a></Link>
-                  </div>
-                </div>
 
-              </div>
-              <div className='col-md-6'>
-                <div className="product-wrapper bakul-bg">
-                  <div className="product-wrapper--text">
-                    <Link href="/projects/bakul-fresh"><a><h2 className='product-wrapper--title'>Bakul Fresh</h2></a></Link>
-                    <p className='product-wrapper--subtitle'>Brand identity &amp; app design for an agritech product</p>
+              <div className='col-sm-12 col-md-6 col-lg-6'>
+                <Link href="/projects/eynetech">
+                  <div className="product-wrapper eyentech-bg">
+                    <div className="box-bg" style={{background: "url('/images/index/eyentech.png')"}}>
+                      <div className="product-wrapper--text">
+                        <Link href="/projects/eynetech"><a><h2 className='product-wrapper--title'>Eynetech</h2></a></Link>
+                        <p className='product-wrapper--subtitle'>Branding &amp; website design for an IT industry</p>
+                      </div>
+                    </div> 
                   </div>
-                  <div className="content">
-                  <Link href="/projects/bakul-fresh"><a><Image src="/images/index/bakul.png" width={486} height={450} layout="responsive" /></a></Link>
-                  </div>
-                </div>
+                </Link>
               </div>
+
+              <div className='col-sm-12 col-md-6 col-lg-6'>
+                <Link href="/projects/bakul-fresh">
+                  <div className="product-wrapper bakul-bg">
+                    <div className="box-bg" style={{background: "url('/images/index/bakul.png')"}}>
+                      <div className="product-wrapper--text">
+                        <Link href="/projects/bakul-fresh"><a><h2 className='product-wrapper--title'>Bakul Fresh</h2></a></Link>
+                        <p className='product-wrapper--subtitle'>Brand identity &amp; app design for an agritech product</p>
+                      </div>
+                    </div> 
+                  </div>
+                </Link>
+              </div>
+
             </div>
           </div>
         </div>
-        <div className="view-all"><a href='/projects'>View All</a></div>
+
+        <div className="view-all">
+          <a href='/projects'>
+          <button type='submit'>View All</button></a>
+        </div>
       </section>
 
       <section className="whatwedobg my-140">
