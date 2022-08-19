@@ -67,14 +67,14 @@ export default function Projects() {
             "description": "2020",
             "image": "/images/projects/Logofolio3.png",
             "link": "/projects/logofolio-3",
-            "backgroundColor": "eyentech-bg"
+            "backgroundColor": "bakul-bg"
         },
         {
             "title": "Box File",
             "description": "IT Industry • Brand Identity • Branding • Website Design",
             "image": "/images/projects/Boxfile.png",
             "link": "/projects/boxfile",
-            "backgroundColor": "bakul-bg"
+            "backgroundColor": "eyentech-bg"
         },
         {
             "title": "Crictracker",
@@ -192,7 +192,7 @@ export default function Projects() {
                             {
                                 cards.map((ele) => {
                                     return <div className='col-sm-12 col-md-6 col-lg-6'>
-                                                <Link href={ele.link}><div className="product-wrapper finshots-bg">
+                                                <Link href={ele.link}><div className={`product-wrapper ${ele.backgroundColor}`}>
                                                     <div className="box-bg" style={{background: `url(${ele.image})`}}>
                                                         <div className="product-wrapper--text">
                                                             <Link href={ele.link}><a><h2 className='product-wrapper--title'>{ele.title}</h2></a></Link>
