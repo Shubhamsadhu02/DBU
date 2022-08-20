@@ -28,30 +28,11 @@ export default function Rain() {
                     <div className="team">
                         <div className="work1 work3">
                             <h2>The challenge for us</h2>
-                            <p>The first challenge in this project was to create a simple, futuristic, and appealing company identity with a 3D element. We looked at a lot of different ideas before settling on this final design, which combines cubical 3d elements to depict a store with a door that also conveys the brand initials D in negative space. The bold square custom font is designed to complement the brand mark.</p>
+                            <p>Having a user base of 10k+ , Rain Pay India was facing Brand Design problem. The task at hand was to overhaul the Branding and website in such a way that it would create a distinctive identity in comparison to the other brands in the market and also providing impetus to the product differentiation.</p>
                         </div>
-                        {/*rain 4 boxes*/}
+
                         <div>
-                            <div className="row">
-                                <div className="col-6">
-                                    <Image src="/images/rain/concept-1.png" layout='responsive' width={538} height={484} />
-                                </div>
-                                <div className="col-6">
-                                    <div className="row">
-                                        <div className="col-12">
-                                            <Image src="/images/rain/concept-2.png" width={538} layout='responsive' height={232} />
-                                        </div>
-                                    </div>
-                                    <div className="row mt-2">
-                                        <div className="col-6">
-                                            <Image src="/images/rain/concept-3.png" layout='responsive' width={230} height={228} />
-                                        </div>
-                                        <div className="col-6">
-                                            <Image src="/images/rain/concept-4.png" layout='responsive' width={230} height={228} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <Image src="/images/rain/challenge.png" layout='responsive' width={1096} height={484} />
                         </div>
                     </div>
                 </div>
@@ -83,22 +64,7 @@ export default function Rain() {
                     </div>
                 </div>
             </section>
-            <section className='my-120'>
-                <div className="container">
-                    <div className="team">
-                        <div className="work1 work3">
-                            <h2>Embellished the Social Media</h2>
-                            <p>For any business, especially when it is a budding business, social appearance plays a major role in marketing as well as making the mark. We planned and created a proper framing of how to furnish the interface on their social media.
-                                <br /><br />
-                                Then, we incorporated all the data related to brand such as the benefits, features, offers into beautiful designs. We used icons and illustrations and human designs that offers a pleasing and refreshing experience to users.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="container-fluid p-0">
-                    <Image src={'/images/rain/social-media.png'} height={1721} width={1366} layout='responsive' />
-                </div>
-            </section>
+        
             <section className='my-120'>
                 <div className="container">
                     <div className="team">
@@ -157,23 +123,35 @@ export default function Rain() {
                             <p>We used a combination of 3D and flat illustration as well as real images to create a visually appealing interface.</p>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section className="landing-page">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <Image src="/images/rain/landing-page.png" height={6049} width={1096} />
-                        </div>
+                    <div>
+                        <Image src="/images/rain/landing-page.png" height={4317} width={1096} />
                     </div>
                 </div>
             </section>
+
+            <section className="mt-120 mb-5">
+                <div className="container">
+                    <div className="team">
+                        <div className="work1 work3">
+                            <h2>Embellished the Social Media</h2>
+                            <p>For any business, especially when it is a budding business, social appearance plays a major role in marketing as well as making the mark. We planned and created a proper framing of how to furnish the interface on their social media. 
+                                <br/>
+                                <br/>
+                                Then, we incorporated all the data related to brand such as the benefits, features, offers into beautiful designs. We used icons and illustrations and human designs that offers a pleasing and refreshing experience to users.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <Image src="/images/rain/embellished.png" height={1721} width={1096} />
+                    </div>
+                </div>
+            </section>
+
 
             <ProjectTestimonial content="We've worked with DBU over several months for Rain's creatives & website needs and they have been an absolute delight to work with. Great delivery, professionalism and accommodation of all our asks. Kudos!"
        image="/images/index/testimonial/sneha.png" name="Sneha Kumari" designation="Marketing manager, Rainpay india" />
 
 
-<NextProject ProjectName="Eynetech" link="/projects/eynetech" />
+        <NextProject ProjectName="Eynetech" link="/projects/eynetech" />
         </main>
 
     )
