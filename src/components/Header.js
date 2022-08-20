@@ -26,7 +26,7 @@ export default function Header(props) {
         },
         {
             title: 'Contact',
-            link: '/Contact'
+            link: '/contact'
         },
         
     ]
