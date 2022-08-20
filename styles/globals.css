@@ -75,6 +75,16 @@ main {
     font-family: 'Objectivity', sans-serif;
 }
 
+.header_linear
+{
+    background: linear-gradient(154.88deg, #131b1b 46.45%, #122322 103.51%);
+}
+
+.header_white
+{
+    background: '#FFFFFF';
+}
+
 .menu a
 {
     font-style: normal;
@@ -1337,6 +1347,20 @@ textarea.form-control {
     {
         background-color: #FFFFFF !important;
         opacity: .8;
+    }
+
+    .header_linear {
+        background: linear-gradient(140.88deg, #0e3f3b 30.51%, #13302E 70.45% );
+    }
+
+    .explore::before
+    {
+        left: 0;
+    }
+
+    .explore::after
+    {
+        right: 0;
     }
     .offcanvas-end
     {

@@ -36,7 +36,8 @@ export default function Header(props) {
     ]
     return (
         <>
-        <Navbar key='md' expand='md'  style={{background: isWhite ? 'linear-gradient(154.88deg, #131b1b 46.45%, #122322 103.51%)' : '#FFFFFF'}}>
+        {/* style={{background: isWhite ? 'linear-gradient(154.88deg, #131b1b 46.45%, #122322 103.51%)' : '#FFFFFF'}} */}
+        <Navbar key='md' expand='md' className={isWhite ? 'header_linear' : 'header_white'} >
             <Container>
                 <Navbar.Brand href="/"><img src={isWhite ? '/images/logowhite.svg': '/images/logoblack.svg'}
                                             height={36} width={170}/></Navbar.Brand>
