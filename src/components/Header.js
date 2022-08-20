@@ -17,12 +17,16 @@ export default function Header(props) {
             link: '/projects'
         },
         {
-            title: 'Clients',
+            title: 'Clientele',
             link: '/clients'
         },
+        // {
+        //     title: 'Shop',
+        //     link: '/shop'
+        // },
         {
-            title: 'Shop',
-            link: '/shop'
+            title: 'Blog',
+            link: '/blog'
         },
         {
             title: 'Contact',
