@@ -75,27 +75,25 @@ main {
     font-family: 'Objectivity', sans-serif;
 }
 
-.header_linear
+.menu ul{
+    margin-top: 1rem !important;
+    display: flex;
+    list-style: none;
+}
+.menu ul li
 {
-    background: linear-gradient(154.88deg, #131b1b 46.45%, #122322 103.51%);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
 }
 
-.header_white
-{
-    background: '#FFFFFF';
-}
-
-.menu a
+.menu ul li a
 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
-    position: relative;
-    display: inline-block;
-    margin: 0 25px;
     color: #6E7377;
-    text-decoration: none;
 }
 
 .section-margin{
@@ -129,20 +127,10 @@ main {
 }
 
 /*Background*/
-/* .explore {
-    background-image: url('/images/index/bg.png');
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.bg {
-    background-image: url('/vector/Background.png');
-    background-size: cover;
-} */
-
 .explore
 {
-    position: relative;
+    width: 100%;
+    position: absolute;
     z-index: 10;
     background: #101010;
     overflow: hidden;
@@ -418,31 +406,6 @@ main {
     align-items: center;
 }
 
-/* .trusted .work-box ul li .fitbg2 {
-    height: 33px;
-    width: 130px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.trusted .work-box ul li .fitbg3 {
-    height: 60px;
-    width: 80px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-
-} */
 
 /*Our What Clients Says*/
 .clientsbg {
@@ -525,8 +488,6 @@ main {
     align-items: center;
 }
 
-
-
 .social-media ul {
     display: flex;
     width: 100%;
@@ -602,15 +563,6 @@ footer .copyright p {
 
 
 /*Start our team*/
-/* .row
-{
-    position: relative;
-    width: 100%;
-    height: auto;
-    color: #ffffff;
-    padding-top: 10rem;
-    font-family: 'Nunito Sans', sans-serif;
-} */
 
 .explore-image--heading {
     margin-top: 30px;
@@ -976,12 +928,7 @@ footer .copyright p {
    
 }
 
-/* .project-header .container{
-    min-height: 300px;
-} */
-
 .bg1 {
-    /* background: url('/vector/bg.png'); */
     background-size: cover;
 }
 
@@ -1015,7 +962,8 @@ footer .copyright p {
     height: 158px;
 }
 
-.building1 ul li h2 {
+.building1 ul li h2,
+.success-message h3 {
     color: #101010;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -1339,6 +1287,16 @@ textarea.form-control {
     flex-direction: column;
     justify-content: center;
     background: #fff;
+}
+
+.success-message p
+{
+    font-family: 'Objectivity';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #8F8E8E;
 }
 
 @media (max-width: 500px){

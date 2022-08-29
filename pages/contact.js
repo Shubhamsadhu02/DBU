@@ -19,12 +19,13 @@ export default function Contact(props) {
     }
     return (
         <main>
-            <Header isWhite={true} />
-        <section className="explore" style={{padding: "50px 135px 0"}}>
+        <div className="explore" style={{height: "900px"}}></div>
+        <Header isWhite={true} />
+        <section className="position-relative" style={{padding: "135px 60px 0", zIndex: "1000"}}>
         <div className="contactus">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-md-6 d-flex flex-column justify-content-center">
                         <div className="contact-description-wrapper">
                             <h2>Contact Us</h2>
                             <p style={{width: "378px", paddingTop: "1rem"}}>
@@ -48,23 +49,23 @@ export default function Contact(props) {
                     <div className="col-md-6">
                         <div className="contactus--form">
                             <div className="success-message" style={{zIndex:submitted?2:0}}>
-                                <span className='form-reset' onClick={() => setSubmitted(false)}><FontAwesomeIcon icon={faChevronLeft} /></span>
-                                <Image className="mx-auto" src="/images/contact/complete.svg" alt="" height="64px" width="64px" layout={"intrinsic"} />
+                                <span className='form-reset' onClick={() => setSubmitted(false)}>
+                                <Image className="mx-auto" src="/images/contact/complete.svg" alt="" height="64px" width="64px" layout={"intrinsic"} /></span>
                                 <h3>Form has been submitted successfully!</h3>
                                 <p>We will be back to you very soon...</p>
                             </div>
                             <form method="post" action="/" onSubmit={handleSubmit} style={{zIndex:submitted?0:2}}>
                                 <div className="form-group">
                                     <label htmlFor="" className="form-label">Your Name</label>
-                                    <input type="text" className="form-control" placeholder="Full Name" name="name"/>
+                                    <input type="text" className="form-control" placeholder="Full Name" name="name" required/>
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="" className="form-label">Email</label>
-                                    <input type="text" className="form-control" placeholder="username@gmail.com" name="email"/>
+                                    <input type="text" className="form-control" placeholder="username@gmail.com" name="email" required/>
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="" className="form-label">Message</label>
-                                    <textarea type="text" className="form-control" placeholder="Tell us something about your project....." rows={4} name="message"></textarea>
+                                    <textarea type="text" className="form-control" placeholder="Tell us something about your project....." rows={4} name="message" required></textarea>
                                 </div>
                                 <div className="form-group text-end">
                                     <button type="submit" className="btn btn-outline-success">Submit</button>

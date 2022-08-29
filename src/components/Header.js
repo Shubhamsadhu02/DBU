@@ -37,7 +37,7 @@ export default function Header(props) {
     return (
         <>
         {/* style={{background: isWhite ? 'linear-gradient(154.88deg, #131b1b 46.45%, #122322 103.51%)' : '#FFFFFF'}} */}
-        <Navbar key='md' expand='md' className={isWhite ? 'header_linear' : 'header_white'} >
+        <Navbar key='md' expand='md'  style={{zIndex: "1000"}}>
             <Container>
                 <Navbar.Brand href="/"><img src={isWhite ? '/images/logowhite.svg': '/images/logoblack.svg'}
                                             height={36} width={170}/></Navbar.Brand>
@@ -50,13 +50,17 @@ export default function Header(props) {
                     <Offcanvas.Header closeButton>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <Nav className="menu justify-content-center flex-grow-1 pe-3" >
+                        <Nav className="menu justify-content-end flex-grow-1" >
+                        <ul>
                             {
+                                
                                 menuItems.map(item => {
                                     
-                                    return <Link href={item.link} className="nav-link">{item.title}</Link>
+                                    return <li><Link href={item.link} className="nav-link">{item.title}</Link></li>
                                 })
+            
                             }
+                             </ul>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

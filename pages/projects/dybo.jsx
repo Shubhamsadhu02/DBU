@@ -9,7 +9,7 @@ export default function Dybo() {
     return (
         <main>
             <Header/>
-             <Banner background="url('/images/dybo/bg.svg')" title ={"Dybo"} subtitle ={"Branding • UI/UX"} image={"/images/dybo/hero.png" }/>
+             <Banner background="linear-gradient(89.46deg, #0A3D49 11.79%, #216A73 46.9%, #175760 85.1%);" title ={"Dybo"} subtitle ={"Branding • UI/UX"} image={"/images/dybo/hero.png" }/>
             <section className='my-120'>
                 <div className="container">
                     <div className="team">
