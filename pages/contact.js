@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import {faChevronLeft} from "@fortawesome/free-solid-svg-icons";
+
 import Header from '../src/components/Header'
 
 

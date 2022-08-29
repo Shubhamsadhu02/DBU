@@ -23,7 +23,7 @@ export default function Intelia() {
           </div>
         </div>
       </section>
-      <section>
+      <section className='section-margin'>
         <div className="container">
           <div className="team">
             <div className="work1 work3">
@@ -43,7 +43,7 @@ export default function Intelia() {
             </div>
           </div>
         </div></section>
-      <section>
+      <section className='section-margin'>
         <div className="container">
           <div className="team">
             <div className="work1 work3">
