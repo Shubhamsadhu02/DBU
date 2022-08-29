@@ -9,42 +9,42 @@ export default function Projects() {
         {
             "title": "Spayee",
             "description": "Edtech • Branding • Website",
-            "image": "/images/index/spayee.png",
+            "image": "/images/projects/spayee.png",
             "link": "/projects/spayee",
             "backgroundColor": "spayee-bg"
         },
         {
             "title": "Finshots",
             "description": "Financial News Application • Branding ",
-            "image": "/images/index/finshots.png",
+            "image": "/images/projects/finshots.png",
             "link": "/projects/finshots",
             "backgroundColor": "finshots-bg"
         },
         {
             "title": "Dybo",
             "description": "AR Product • Branding • UI/UX Design ",
-            "image": "/images/index/dybo.png",
+            "image": "/images/projects/dybo.png",
             "link": "/projects/dybo",
             "backgroundColor": "dybo-bg"
         },
         {
             "title": "Rain Pay",
             "description": "Fintech • Digital Ads • Website Design",
-            "image": "/images/index/rain-pay.png",
+            "image": "/images/projects/Rain.png",
             "link": "/projects/rain",
             "backgroundColor": "rain-pay-bg"
         },
         {
             "title": "Eynetech",
             "description": "IT Industry • Branding • Website Design",
-            "image": "/images/index/eyentech.png",
+            "image": "/images/projects/Eyntech.png",
             "link": "/projects/eynetech",
             "backgroundColor": "eyentech-bg"
         },
         {
             "title": "Bakul Fresh",
             "description": "Agritech Product • Branding • UI/UX Design",
-            "image": "/images/index/bakul.png",
+            "image": "/images/projects/bakul.png",
             "link": "/projects/bakul-fresh",
             "backgroundColor": "bakul-bg"
         },

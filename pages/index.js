@@ -73,7 +73,7 @@ export default function Home() {
               <div className='col-sm-12 col-md-6 col-lg-6'>
                 <Link href="/projects/rain">
                   <div className="product-wrapper finshots-bg">
-                    <div className="box-bg" style={{background: "url('/images/index/rain-pay.png')"}}>
+                    <div className="box-bg" style={{background: "url('/images/index/rain.png')"}}>
                       <div className="product-wrapper--text">
                         <Link href="/projects/rain"><a><h2 className='product-wrapper--title'>Rain Pay</h2></a></Link>
                         <p className='product-wrapper--subtitle'>Landing page &amp; digital ads for US based fintech product</p>
