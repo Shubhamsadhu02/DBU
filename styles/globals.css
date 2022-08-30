@@ -1277,6 +1277,7 @@ footer .copyright p {
 }
 .contactus--form button[type=submit] {
     padding: 18px 55px;
+    border: none;
     border-radius: 0;
     background: #12CFB9;
 }
@@ -1509,7 +1510,8 @@ textarea:focus, input:focus{
     {
         font-size: 25px;
     }
-    .building ul li h3
+    .building ul li h3,
+    .contactus p
     {
         font-size: 18px;
     }
@@ -1628,7 +1630,8 @@ textarea:focus, input:focus{
         height: 130px;
     }
     .featured .great p,
-    .crafting p
+    .crafting p,
+    .contact-description-wrapper p
     {
         width: 360px !important;
     }
@@ -1667,5 +1670,22 @@ textarea:focus, input:focus{
     .thank p
     {
         font-size: 30px;
+    }
+
+    .explore3
+    {
+        height: 1500px !important;
+    }
+    
+    .contactus--form
+    {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .icon
+    {
+        margin-top: 4rem !important;
+        margin-bottom: 3rem;
     }
 }
