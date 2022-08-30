@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
-import Header from '../src/components/Header'
+import Header from '../src/components/Header';
 
 
 export default function Contact(props) {
     const [submitted, setSubmitted] = useState(false);
+
     const handleSubmit = async (event) => {
         console.log(event.target);
         const formData = new FormData(event.target);
@@ -19,7 +20,7 @@ export default function Contact(props) {
     }
     return (
         <main>
-        <div className="explore" style={{height: "900px"}}></div>
+        <div className="explore" style={{height: "100vh"}}></div>
         <Header isWhite={true} />
         <section className="position-relative" style={{padding: "135px 60px 0", zIndex: "1000"}}>
         <div className="contactus">
@@ -79,6 +80,7 @@ export default function Contact(props) {
             </div>
         </div>
         </section>
+
         </main>
     );
 }

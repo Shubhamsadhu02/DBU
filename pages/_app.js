@@ -7,16 +7,25 @@ config.autoAddCss = false
 import Footer from '../src/components/Footer'
 import Header from '../src/components/Header'
 import '../styles/globals.css'
+import { useRouter } from 'next/router'
 
 library.add(fab);
 
 
 
 function MyApp({ Component, pageProps }) {
+ 
+  const router = useRouter();
+ 
+
+  const showNav= router.pathname === "/contact";
+  console.log(showNav);
+
   return (
   <>
     <Component {...pageProps} />
-    <Footer />
+
+    <Footer showNav={!showNav}/>
   </>
   );
 }
