@@ -81,7 +81,7 @@ export default function Projects() {
             "description": "Collaboration with the leading cricket news website",
             "image": "/images/projects/Crictracker.png",
             "link": "/projects/cricktracker",
-            "backgroundColor": "eyentech-bg"
+            "backgroundColor": "bakul-bg"
         },
         {
             "title": "Andy",

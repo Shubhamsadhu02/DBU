@@ -46,7 +46,7 @@ export default function Eynetech() {
                                     </li>
                                 </ul>
                             </div>
-                            <div>
+                            <div  className='my-120'>
                                 <Image src="/images/eyentech/impact1.png" height={650} width={1096} />
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export default function Eynetech() {
                                 <p>Creating a Mobile and Web interface for Eynetech which generates more leads by designing a feasible website that is accessed at ease and the task is performed without external distraction. An information accessible website that is highly functional and reflects the trust and authority in the audience mind and converts them for business relation</p>
                             </div>
                             <div>
-                                <Image src="/images/eyentech/goal.png" height={650} width={1096} />
+                                <Image src="/images/eyentech/goal.png" height={506} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ export default function Eynetech() {
                                    </p>
                             </div>
                             <div>
-                                <Image src="/images/eyentech/wireframe.png" height={950} width={1096} />
+                                <Image src="/images/eyentech/wireframe.png" height={600} width={1096} />
                             </div>
                         </div>
                     </div>

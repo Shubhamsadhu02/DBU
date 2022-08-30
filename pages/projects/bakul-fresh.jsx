@@ -58,7 +58,7 @@ export default function BakulFresh() {
                             </p>
                         </div>
                         <div>
-                        <Image src="/images/bakul-fresh/explored1.png" className='mb-5' height={750} width={1096} />
+                        <Image src="/images/bakul-fresh/explored1.png" className='mb-5' height={1063} width={1096} />
                         </div>
                         <div>
                         <Image src="/images/bakul-fresh/explored2.png" className='mb-5' height={650} width={1096} />
@@ -110,7 +110,7 @@ export default function BakulFresh() {
                         <Image src="/images/bakul-fresh/mobile1.png" className='mb-5' height={1250} width={1096} />
                         </div>
                         <div>
-                        <Image src="/images/bakul-fresh/mobile2.png" height={2650} width={1096} />
+                        <Image src="/images/bakul-fresh/mobile2.png" height={2670} width={1096} />
                         </div>
                     </div>
                 </div>

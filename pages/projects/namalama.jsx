@@ -32,7 +32,7 @@ export default function Namalama() {
             </div>
             <br />
             <div>
-              <Image height={1237} width={1096} layout="responsive" src="/images/namalama/about4.png" />
+              <Image height={1148} width={1096} layout="responsive" src="/images/namalama/about4.png" />
             </div>
             <br />
             <div>
@@ -40,15 +40,15 @@ export default function Namalama() {
             </div>
             <br />
             <div>
-              <Image height={1237} width={1096} layout="responsive" src="/images/namalama/about6.png" />
+              <Image height={616} width={1096} layout="responsive" src="/images/namalama/about6.png" />
             </div>
             <br />
             <div>
-              <Image height={1237} width={1096} layout="responsive" src="/images/namalama/about7.png" />
+              <Image height={694} width={1096} layout="responsive" src="/images/namalama/about7.png" />
             </div>
             <br />
             <div>
-              <Image height={1237} width={1096} layout="responsive" src="/images/namalama/about8.png" />
+              <Image height={1096} width={1096} layout="responsive" src="/images/namalama/about8.png" />
             </div>
           </div>
         </div>

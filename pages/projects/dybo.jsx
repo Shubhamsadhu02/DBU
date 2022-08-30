@@ -120,13 +120,8 @@ export default function Dybo() {
                             <h2>Scenes after Research & Analysis</h2>
                             <p>We created wireframes to represent the products interface with all of the data points after two weeks of research and analysis. While working on the wireframes, our team concentrated on the design system, such as the typography, icons, and colours that will be utilised in the final UI. We tried out a few different options for the products user interface before landing on the one that best satisfied the users and clients needs. </p>
                         </div>
-                        <div className="row">
-                            <div className="col-12">
-                                <Image src="/images/dybo/research-analysis.png" height={700} width={1096} />
-                            </div>
-                            <div className="col-12 mt-4">
-                                <Image src="/images/dybo/ra2.png" height={850} width={1096} />
-                            </div>
+                        <div className="mt-4">
+                            <Image src="/images/dybo/ra2.png" height={835} width={1096} />
                         </div>
                     </div>
                 </div>
@@ -147,7 +142,7 @@ export default function Dybo() {
                                 <Image src="/images/dybo/design-system-2.png" height={700} width={1096} />
                             </div>
                             <div className="col-12 mt-4">
-                                <Image src="/images/dybo/design-system-3.png" height={1230} width={1096} />
+                                <Image src="/images/dybo/design-system-3.png" height={1225} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -163,19 +158,22 @@ export default function Dybo() {
                         </div>
                         <div className="row">
                             <div className="col-12">
-                            <Image src="/images/dybo/robust-output-1.png" height={537} width={1096} />
+                                <Image src="/images/dybo/robust-output-1.png" height={537} width={1096} />
                             </div>
                             <div className="col-12 mt-4">
                                 <Image src="/images/dybo/robust-output-2.png" height={700} width={1096} />
                             </div>
                             <div className="col-12 mt-4">
-                                <Image src="/images/dybo/robust-output-3.png" height={1230} width={1096} />
+                                <Image src="/images/dybo/robust-output-3.png" height={1220} width={1096} />
+                            </div>
+                            <div className="col-12 mt-4">
+                                <Image src="/images/dybo/robust-output-4.png" height={835} width={1096} />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="landing-page">
+            {/* <section className="landing-page">
                 <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -183,7 +181,7 @@ export default function Dybo() {
                     </div>
                 </div>
                 </div>
-            </section>
+            </section> */}
 
 
             <ProjectTestimonial content="We worked with DB Universe on the redesign of the Dybo.io Platform. It was a pleasure to work with them. Their design helped boost our conversion rate, and they brought design knowledge to the table that helped us understand how to make our product design-driven."

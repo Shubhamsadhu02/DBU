@@ -20,9 +20,9 @@ export default function Contact(props) {
     }
     return (
         <main>
-        <div className="explore" style={{height: "100%"}}></div>
+        <div className="explore" style={{height: "115vh"}}></div>
         <Header isWhite={true} />
-        <section className="position-relative" style={{padding: "135px 60px 0", zIndex: "1000"}}>
+        <section className="position-relative" style={{padding: "25px 60px 0", zIndex: "1000"}}>
         <div className="contactus">
             <div className="container">
                 <div className="row">
@@ -49,13 +49,13 @@ export default function Contact(props) {
                     </div>
                     <div className="col-md-6">
                         <div className="contactus--form">
-                            <div className="success-message" style={{zIndex:submitted?2:0}}>
+                            <div className="success-message" style={{zIndex:submitted?2:0, display:submitted?'block':'none'}}>
                                 <span className='form-reset' onClick={() => setSubmitted(false)}>
                                 <Image className="mx-auto" src="/images/contact/complete.svg" alt="" height="64px" width="64px" layout={"intrinsic"} /></span>
-                                <h3>Form has been submitted successfully!</h3>
+                                <h3 style={{color: "#FAFAFA"}}>Form has been submitted successfully!</h3>
                                 <p>We will be back to you very soon...</p>
                             </div>
-                            <form method="post" action="/" onSubmit={handleSubmit} style={{zIndex:submitted?0:2}}>
+                            <form method="post" action="/" onSubmit={handleSubmit} style={{zIndex:submitted?0:2, display:submitted?'none':'block'}}>
                                 <div className="form-group">
                                     <label htmlFor="" className="form-label">Your Name</label>
                                     <input type="text" className="form-control" placeholder="Full Name" name="name" required/>
@@ -69,7 +69,7 @@ export default function Contact(props) {
                                     <textarea type="text" className="form-control" placeholder="Tell us something about your project....." rows={4} name="message" required></textarea>
                                 </div>
                                 <div className="form-group text-end">
-                                    <button type="submit" className="btn btn-outline-success">Submit</button>
+                                    <button type="submit" className="submit-btn">Submit</button>
                                 </div>
 
                             </form>

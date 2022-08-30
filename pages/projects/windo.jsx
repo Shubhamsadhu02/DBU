@@ -50,7 +50,7 @@ export default function Windo() {
           </ul>
         </div>
         <div style={{marginTop: 215}}>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/impact.png" />
+          <Image height={640} width={1096} layout="responsive" src="/images/windo/impact.png" />
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ export default function Windo() {
             App flow &amp; UI design was bad</p>
         </div>
         <div>
-          <iImage height={668} width={1096} layout="responsive" src="/images/windo/pain.png" />
+          <Image height={668} width={1096} layout="responsive" src="/images/windo/pain.png" />
         </div>
       </div>
     </div>
@@ -104,7 +104,7 @@ export default function Windo() {
         </div>
         <br />
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved4.png" />
+          <Image height={849} width={1096} layout="responsive" src="/images/windo/solved4.png" />
         </div>
         <br />
         <div>
