@@ -20,7 +20,7 @@ export default function Contact(props) {
     }
     return (
         <main>
-        <div className="explore" style={{height: "100vh"}}></div>
+        <div className="explore" style={{height: "100%"}}></div>
         <Header isWhite={true} />
         <section className="position-relative" style={{padding: "135px 60px 0", zIndex: "1000"}}>
         <div className="contactus">
