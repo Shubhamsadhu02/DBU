@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <div className="explore" style={{height: "840px"}}></div>
       <Header isWhite={true} />
-      <section className="position-relative" style={{padding: "200px 240px 280px 240px", zIndex: "1000"}}>
+      <section className="explore-top__section position-relative" style={{padding: "200px 240px 280px 240px", zIndex: "1000"}}>
         <div className="container-fluid">
           <div className="building text-center">
             <h1>Building the Future</h1>

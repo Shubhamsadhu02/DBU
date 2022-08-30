@@ -11,7 +11,7 @@ export default function Clients() {
     <div className="explore" style={{height: "848px"}}></div>
     <Header isWhite={true}/>
       <div>
-        <section className="position-relative explore1" style={{padding: "130px 190px 190px", zIndex: "1000"}}>
+        <section className="explore-top__section position-relative explore1" style={{padding: "130px 190px 190px", zIndex: "1000"}}>
           <div className="container-fluid" >
             <div className="building text-center">
               <h1>Good Design Makes <br />Business Growth Better</h1>

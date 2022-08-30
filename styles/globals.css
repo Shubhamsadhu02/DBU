@@ -1327,8 +1327,19 @@ textarea:focus, input:focus{
         opacity: .8;
     }
 
-    .header_linear {
-        background: linear-gradient(140.88deg, #0e3f3b 30.51%, #13302E 70.45% );
+    .menu ul
+    {
+        display: block;
+    }
+
+    .menu ul li
+    {
+        padding-left: 0;
+    }
+    .activewhite,
+    .activeblack
+    {
+        color: #101010 !important;
     }
 
     .explore::before
@@ -1431,10 +1442,10 @@ textarea:focus, input:focus{
         height: 465px;
     }
     .product-wrapper--text
-{
+    {
     padding-left: 20px;
     padding-top: 20px;
-}
+    }
 
     .social-media ul
     {
@@ -1594,14 +1605,18 @@ textarea:focus, input:focus{
         padding: 0 !important;
     }
 
-    .explore
+    .explore-top__section
     {
-        padding: 220px 10px !important;
+        padding: 200px 10px !important;
+    }
+    .explore-top__section1
+    {
+        padding: 60px 10px !important;
     }
 
     .explore1
     {
-        padding: 80px 20px !important;
+        height: 155vh !important;
     }
     .whatwedo-lists
     {
