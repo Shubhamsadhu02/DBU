@@ -38,11 +38,11 @@ export default function Contact(props) {
                             <p><a href="mailto:hello@dbuniverse.com" target="_blank" rel="noreferrer">hello@dbuniverse.com</a></p>
                         
                             <div className="icon" style={{marginTop: "10rem"}}>
-                            <a href="#"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
-                            <a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
-                            <a href="#"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
-                            <a href="#"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
-                            <a href="#"><FontAwesomeIcon icon={['fab', 'dribbble']} /></a>
+                            <a href="https://www.facebook.com/designer.bandaa" target="framename" ><FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
+                            <a href="https://twitter.com/DesignerBanda" target="framename"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                            <a href="https://www.instagram.com/designer.banda/" target="framename"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+                            <a href="https://www.linkedin.com/in/designerbanda/" target="framename"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
+                            <a href="https://dribbble.com/DesignerBanda" target="framename"><FontAwesomeIcon icon={['fab', 'dribbble']} /></a>
                         </div>
                         </div>
 

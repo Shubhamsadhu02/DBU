@@ -130,7 +130,7 @@ export default function Projects() {
             "description": "Minimal Print Ads",
             "image": "/images/projects/Printads.png",
             "link": "/projects/print-ads",
-            "backgroundColor": "bakul-bg"
+            "backgroundColor": "eyentech-bg"
         },
         {
             "title": "Intellia",
@@ -144,7 +144,7 @@ export default function Projects() {
             "description": "Kids E-Platform • Brand Identity • Website Design",
             "image": "/images/projects/Edulil.png",
             "link": "/projects/edulil",
-            "backgroundColor": "bakul-bg"
+            "backgroundColor": "eyentech-bg"
         },
         {
             "title": "Vedose",
