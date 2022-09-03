@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 
-export default () => {
+export default function Brands (){
     const brands=[
         {
             "image": "/images/index/brands/slice.svg",
@@ -40,7 +40,7 @@ export default () => {
         },
         {
             "image": "/images/index/brands/qoohoo.svg",
-        },
+        }
 
     ]
 
@@ -57,9 +57,9 @@ export default () => {
                             
                                 {
                                     brands.map((ele) => { 
-                                    return  <div className='col-sm-12 col-md-3 col-lg-3'>
+                                    return  <div className='col-sm-12 col-md-3 col-lg-3' key={ele.image}>
                                                 <div className="brand-img">
-                                                    <img src={ele.image} alt="" />
+                                                    <Image src={ele.image} alt="" height={50} width={130} />
                                                 </div>
                                             </div>
                                     })

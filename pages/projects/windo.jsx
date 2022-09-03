@@ -50,7 +50,7 @@ export default function Windo() {
           </ul>
         </div>
         <div style={{marginTop: 215}}>
-          <Image height={640} width={1096} layout="responsive" src="/images/windo/impact.png" />
+          <Image height={640} width={1096} layout="responsive" src="/images/windo/impact.png" alt=''/>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ export default function Windo() {
             App flow &amp; UI design was bad</p>
         </div>
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/pain.png" />
+          <Image height={668} width={1096} layout="responsive" src="/images/windo/pain.png" alt='' />
         </div>
       </div>
     </div>
@@ -82,11 +82,11 @@ export default function Windo() {
             Easy to use card based design</p>
         </div>
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved1.png" />
+          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved1.png" alt='' />
         </div>
         <br />
         <div>
-          <Image height={468} width={1096} layout="responsive" src="/images/windo/solved2.png" />
+          <Image height={468} width={1096} layout="responsive" src="/images/windo/solved2.png" alt='' />
         </div>
       </div>
     </div>
@@ -100,23 +100,23 @@ export default function Windo() {
           <p>To ensure a consistent look across all screens, we first designed a UI kit that included all of the colours, font, buttons, icon set, and other elements.</p>
         </div>
         <div>
-          <Image height={1394} width={1096} layout="responsive" src="/images/windo/solved3.png" />
+          <Image height={1394} width={1096} layout="responsive" src="/images/windo/solved3.png" alt='' />
         </div>
         <br />
         <div>
-          <Image height={849} width={1096} layout="responsive" src="/images/windo/solved4.png" />
+          <Image height={849} width={1096} layout="responsive" src="/images/windo/solved4.png"  alt=''/>
         </div>
         <br />
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved5.png" />
+          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved5.png" alt='' />
         </div>
         <br />
         <div>
-          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved6.png" />
+          <Image height={668} width={1096} layout="responsive" src="/images/windo/solved6.png"  alt=''/>
         </div>
         <br />
         <div>
-          <Image height={768} width={1096} layout="responsive" src="/images/windo/solved7.png" />
+          <Image height={768} width={1096} layout="responsive" src="/images/windo/solved7.png" alt='' />
         </div>
       </div>
     </div>

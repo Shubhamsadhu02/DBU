@@ -28,7 +28,7 @@ export default function Home() {
           <div className="work-box">
             <div className='row' style={{rowGap: "2rem"}}>
               <div className='col-sm-12 col-md-6 col-lg-6'>
-                <Link href="/projects/spayee">
+                <Link href="/projects/spayee" passHref={true}>
                   <div className="product-wrapper spayee-bg">
                     <div className="box-bg" style={{background: "url('/images/index/spayee.png')"}}>
                       <div className="product-wrapper--text">
@@ -41,7 +41,7 @@ export default function Home() {
               </div>
             
               <div className='col-sm-12 col-md-6 col-lg-6'>
-                <Link href="/projects/finshots">
+                <Link href="/projects/finshots" passHref={true}>
                   <div className="product-wrapper finshots-bg">
                     <div className="box-bg" style={{background: "url('/images/index/finshots.png')"}}>
                       <div className="product-wrapper--text">
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
 
               <div className='col-sm-12 col-md-6 col-lg-6'>
-                <Link href="/projects/dybo">
+                <Link href="/projects/dybo" passHref={true}>
                   <div className="product-wrapper finshots-bg">
                     <div className="box-bg" style={{background: "url('/images/index/dybo.png')"}}>
                       <div className="product-wrapper--text">
@@ -67,7 +67,7 @@ export default function Home() {
               </div>
 
               <div className='col-sm-12 col-md-6 col-lg-6'>
-                <Link href="/projects/rain">
+                <Link href="/projects/rain" passHref={true}>
                   <div className="product-wrapper finshots-bg">
                     <div className="box-bg" style={{background: "url('/images/index/rain.png')"}}>
                       <div className="product-wrapper--text">
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
 
               <div className='col-sm-12 col-md-6 col-lg-6'>
-                <Link href="/projects/eynetech">
+                <Link href="/projects/eynetech" passHref={true}>
                   <div className="product-wrapper eyentech-bg">
                     <div className="box-bg" style={{background: "url('/images/index/eyentech.png')"}}>
                       <div className="product-wrapper--text">
@@ -93,7 +93,7 @@ export default function Home() {
               </div>
 
               <div className='col-sm-12 col-md-6 col-lg-6'>
-                <Link href="/projects/bakul-fresh">
+                <Link href="/projects/bakul-fresh" passHref={true}>
                   <div className="product-wrapper bakul-bg">
                     <div className="box-bg" style={{background: "url('/images/index/bakul.png')"}}>
                       <div className="product-wrapper--text">
@@ -110,8 +110,8 @@ export default function Home() {
         </div>
 
         <div className="view-all">
-          <a href='/projects'>
-          <button type='submit'>View All</button></a>
+          <Link href='/projects' passHref={true}><a>
+          <button type='submit'>View All</button></a></Link>
         </div>
       </section>
 
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="row whatwedo-lists">
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <img src="vector/Group.png" />
+                <Image src="/vector/Group.png"alt='' height={48} width={48} />
                 <h2>Branding</h2>
                 <div className="vertical-line">
                   <h3>Brand Identity</h3>
@@ -133,7 +133,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <img src="vector/Group (2).png" />
+                <Image src="/vector/Group (2).png" alt='' height={48} width={48} />
                 <h2>UX/UI</h2>
                 <div className="vertical-line">
                   <h3>Research &amp; Analysis</h3>
@@ -143,7 +143,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <img src="vector/Group (3).png" />
+                <Image src="/vector/Group (3).png" alt='' height={48} width={48} />
                 <h2>Development</h2>
                 <div className="vertical-line">
                   <h3>Website</h3>
@@ -153,7 +153,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <img src="vector/Group (6).png" />
+                <Image src="/vector/Group (6).png" alt='' height={48} width={48} />
                 <h2>Marketing</h2>
                 <div className="vertical-line">
                   <h3>Brochure &amp; Emailers</h3>
@@ -175,10 +175,10 @@ export default function Home() {
         <div className="container">
           <div className="social-media">
             <ul>
-              <Link href="https://www.linkedin.com/in/designerbanda/"><li className='linked-in'><a href="#">Linked-in</a></li></Link>
-              <Link href="https://www.instagram.com/designer.banda/"><li className='instagram'><a href="#">Instagram</a></li></Link>
-              <Link href="https://www.behance.net/DesignerBanda"><li className='behance'><a href="#">Behance</a></li></Link>
-              <Link href="https://www.facebook.com/designer.bandaa/"><li className='facebook'><a href="#">Facebook</a></li></Link>
+                <li className='linked-in'><Link href="https://www.linkedin.com/in/designerbanda/" passHref={true}><a>Linked-in</a></Link></li>
+                <li className='instagram'><Link href="https://www.instagram.com/designer.banda/" passHref={true}><a>Instagram</a></Link></li>
+                <li className='behance'><Link href="https://www.behance.net/DesignerBanda" passHref={true}><a>Behance</a></Link></li>
+                <li className='facebook'><Link href="https://www.facebook.com/designer.bandaa/" passHref={true}><a>Facebook</a></Link></li>
             </ul>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function Battlexo() {
                             <p>BattleXO is a gaming platform that allows you to play your desired games, organize, connect with like-minded gamers, and much more. It makes game play safer, smoother, and more efficiently.</p>
                         </div>
                         <div>
-                            <Image src="/images/battlexo/about.png" height={600} width={1096} />
+                            <Image src="/images/battlexo/about.png" alt='' height={600} width={1096} />
                         </div>
                     </div>
                 </div>
@@ -30,14 +30,14 @@ export default function Battlexo() {
                     <div className="team">
                         <div className="work1 work3">
                             <h2>The challenge for us</h2>
-                            <p>As a one-of-a-kind and revolutionary platform for all online gamers, it provided us with a slew of problems with brand design. It all started with a basic and uninformative landing page that required a little sprucing up. The main task was to rework on UI/UX to improve the page's appearance and feel, but also offering a smooth and secure interface.
+                            <p>As a one-of-a-kind and revolutionary platform for all online gamers, it provided us with a slew of problems with brand design. It all started with a basic and uninformative landing page that required a little sprucing up. The main task was to rework on UI/UX to improve the page&apos;s appearance and feel, but also offering a smooth and secure interface.
                                 The second problem we faced was maintaining a careful approach that ensured the design system remained consistent and high-quality throughout the project.
                                 <br/>
                                 <br/>
                                 The final challenge for us was to approach design in such a way that the finished result stood out from the crowd and instilled confidence in the product from the first sight.</p>
                         </div>
                         <div>
-                            <Image height={890} width={1096} layout="responsive" src="/images/battlexo/challenge.png" />
+                            <Image height={890} width={1096} layout="responsive" src="/images/battlexo/challenge.png" alt='' />
                         </div>
                     </div>
                 </div>
@@ -51,11 +51,11 @@ export default function Battlexo() {
                             <p>We first sought to create a mood board to visually define the brand and its offerings before diving into the design intricacies. We also took inspiration from other like-minded examples such as Dribble, Behance & other similar gaming platforms.
                                 <br/>
                                 <br/>
-                                These pre-existing designs were really helpful in establishing our own visual design language. We were able to gain a deeper understanding of the brand's offerings and features from the perspective of the audience as a whole.
+                                These pre-existing designs were really helpful in establishing our own visual design language. We were able to gain a deeper understanding of the brand&apos;s offerings and features from the perspective of the audience as a whole.
                                 </p>
                         </div>
                         <div>
-                            <Image height={700} width={1096} layout="responsive" src="/images/battlexo/mood.png" />
+                            <Image height={700} width={1096} layout="responsive" src="/images/battlexo/mood.png" alt='' />
                         </div>
                     </div>
                 </div>
@@ -67,22 +67,22 @@ export default function Battlexo() {
                         <div className="work1 work3">
                             <h2>Our Design Methodology</h2>
                             <h3>How did it start?</h3>
-                            <p>After using a mood board to analyze all of the data that needed to be worked on. For the same, we worked on improving the product's functionality, usability, and utility. We conducted an extensive study into the demographics of users and the UI features given by competitors. We then separated the design jobs into simple gigs with clear goals and timeframes, taking into account the wide range of design tasks. We next distributed the tasks to our team members based on members' capabilities to accomplish tasks efficiently.
+                            <p>After using a mood board to analyze all of the data that needed to be worked on. For the same, we worked on improving the product&apos;s functionality, usability, and utility. We conducted an extensive study into the demographics of users and the UI features given by competitors. We then separated the design jobs into simple gigs with clear goals and timeframes, taking into account the wide range of design tasks. We next distributed the tasks to our team members based on members&apos; capabilities to accomplish tasks efficiently.
                             <br/>
                             <br/>
-                            The first step in our design approach was to improve the user experience on the website's landing page. We concentrated on increasing the amount of engagement on the website with icons and UI design. We chose a suitable background image that reflected the brand's personality.
+                            The first step in our design approach was to improve the user experience on the website&apos;s landing page. We concentrated on increasing the amount of engagement on the website with icons and UI design. We chose a suitable background image that reflected the brand&apos;s personality.
                             </p>
                         </div>
                         <div>
-                            <Image height={1928} width={1096} layout="responsive" src="/images/battlexo/design1.png" />
+                            <Image height={1928} width={1096} layout="responsive" src="/images/battlexo/design1.png" alt='' />
                         </div>
                         <br/>
                         <div>
-                            <Image height={890} width={1096} layout="responsive" src="/images/battlexo/design2.png" />
+                            <Image height={890} width={1096} layout="responsive" src="/images/battlexo/design2.png" alt='' />
                         </div>
                         <br/>
                         <div>
-                            <Image height={1080} width={1096} layout="responsive" src="/images/battlexo/design3.png" />
+                            <Image height={1080} width={1096} layout="responsive" src="/images/battlexo/design3.png" alt='' />
                         </div>
                     </div>
                 </div>
@@ -99,13 +99,13 @@ export default function Battlexo() {
                                 </div>
                                 <div className="col-sm-12 col-lg-6">
                                     <h3>Colorpalette</h3>
-                                    <p>We chose red and purple gradient for headings to stand out against the dark core of the deep blue color. This decent and modest palette strengthens the brand's vision and personality.</p>
+                                    <p>We chose red and purple gradient for headings to stand out against the dark core of the deep blue color. This decent and modest palette strengthens the brand&apos;s vision and personality.</p>
                                 </div>
                             </div>
                         </div>
                         
                         <div>
-                            <Image height={1080} width={1096} layout="responsive" src="/images/battlexo/typefaces.png" />
+                            <Image height={1080} width={1096} layout="responsive" src="/images/battlexo/typefaces.png" alt='' />
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ export default function Battlexo() {
                             </p>
                         </div>
                         <div>
-                            <Image height={1316} width={1096} layout="responsive" src="/images/battlexo/components.png" />
+                            <Image height={1316} width={1096} layout="responsive" src="/images/battlexo/components.png" alt='' />
                         </div>
                         
                     </div>
@@ -136,7 +136,7 @@ export default function Battlexo() {
                             </p>
                         </div>
                         <div>
-                            <Image height={5508} width={1096} layout="responsive" src="/images/battlexo/outcome.png" />
+                            <Image height={5508} width={1096} layout="responsive" src="/images/battlexo/outcome.png" alt='' />
                         </div>
                         
                     </div>

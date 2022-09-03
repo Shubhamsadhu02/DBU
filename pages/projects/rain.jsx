@@ -18,7 +18,7 @@ export default function Rain() {
                             <p>Rain Pay is a modern approach to payroll, that allows employees to take back control over their financial lives and receive the money theyve earned without having to wait until payday. </p>
                         </div>
                         <div>
-                            <Image src="/images/rain/featured.png" height={600} width={1096} />
+                            <Image src="/images/rain/featured.png" alt='' height={600} width={1096} />
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export default function Rain() {
                         </div>
 
                         <div>
-                            <Image src="/images/rain/challenge.png" layout='responsive' width={1096} height={484} />
+                            <Image src="/images/rain/challenge.png" alt='' layout='responsive' width={1096} height={484} />
                         </div>
                     </div>
                 </div>
@@ -49,16 +49,16 @@ export default function Rain() {
 
                         <div className="row pt-5">
                             <div className="col">
-                                <Image src="/images/rain/poster-1.png" layout='responsive' width={262} height={371} />
+                                <Image src="/images/rain/poster-1.png" alt='' layout='responsive' width={262} height={371} />
                             </div>
                             <div className="col">
-                                <Image src="/images/rain/poster-2.png" layout='responsive' width={262} height={371} />
+                                <Image src="/images/rain/poster-2.png" alt='' layout='responsive' width={262} height={371} />
                             </div>
                             <div className="col">
-                                <Image src="/images/rain/poster-3.png" layout='responsive' width={262} height={371} />
+                                <Image src="/images/rain/poster-3.png" alt='' layout='responsive' width={262} height={371} />
                             </div>
                             <div className="col">
-                                <Image src="/images/rain/poster-4.png" layout='responsive' width={262} height={371} />
+                                <Image src="/images/rain/poster-4.png" alt='' layout='responsive' width={262} height={371} />
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export default function Rain() {
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <Image src="/images/rain/pre-launch.png" layout="responsive" height={537} width={1096} />
+                                <Image src="/images/rain/pre-launch.png" alt='' layout="responsive" height={537} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function Rain() {
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <Image src="/images/rain/typeface.png" layout='responsive' height={537} width={1096} />
+                                <Image src="/images/rain/typeface.png" alt='' layout='responsive' height={537} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ export default function Rain() {
                         
                         <div className="row">
                             <div className="col-12">
-                                <Image src="/images/rain/color-palette.png" layout='responsive' height={537} width={1096} />
+                                <Image src="/images/rain/color-palette.png" alt='' layout='responsive' height={537} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ export default function Rain() {
                         </div>
                     </div>
                     <div>
-                        <Image src="/images/rain/landing-page.png" height={4317} width={1096} />
+                        <Image src="/images/rain/landing-page.png" alt='' height={4317} width={1096} />
                     </div>
                 </div>
             </section>
@@ -141,7 +141,7 @@ export default function Rain() {
                         </div>
                     </div>
                     <div>
-                        <Image src="/images/rain/embellished.png" height={1721} width={1096} />
+                        <Image src="/images/rain/embellished.png" alt='' height={1721} width={1096} />
                     </div>
                 </div>
             </section>

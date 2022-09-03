@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import 'swiper/css';
 
 
-export default () => {
+export default function Testimonial (){
 
   const slide = [
     {
@@ -38,7 +38,7 @@ export default () => {
         <div className="container">
           <div className="clients">
             <h2>What Clients Says</h2>
-            <Image src="/images/quote.svg" height={33} width={38} />
+            <Image src="/images/quote.svg" alt='' height={33} width={38} />
     
     <Swiper
       spaceBetween={50}
@@ -57,7 +57,7 @@ export default () => {
               <p className='clients-review'>{ele.content}</p>
               <div className="client-info">
                 <div className="client-info--img">
-                  <Image src={ele.image} height={90} width={90} />
+                  <Image src={ele.image} alt='' height={90} width={90} />
                 </div>
                 <div className="client-info--details">
                   <h3>{ele.name}</h3>

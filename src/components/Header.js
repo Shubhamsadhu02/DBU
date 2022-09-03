@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router';
 // import {Link} from 'react-router-dom'
 import {Navbar, Offcanvas, Nav, Container} from "react-bootstrap";
@@ -41,7 +42,7 @@ export default function Header(props) {
         {/* style={{background: isWhite ? 'linear-gradient(154.88deg, #131b1b 46.45%, #122322 103.51%)' : '#FFFFFF'}} */}
         <Navbar key='md' expand='md'  style={{zIndex: "1000"}}>
             <Container>
-                <Navbar.Brand href="/"><img src={isWhite ? '/images/logowhite.svg': '/images/logoblack.svg'}
+                <Navbar.Brand href="/"><Image src={isWhite ? '/images/logowhite.svg': '/images/logoblack.svg'} alt=''
                                             height={36} width={170}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`}/>
                 <Navbar.Offcanvas
@@ -58,7 +59,7 @@ export default function Header(props) {
                                 
                                 menuItems.map(item => {
                                     
-                                    return <li><Link href={item.link}>
+                                    return <li key={item.title}><Link href={item.link}>
                                         <a className={router.pathname == `${item.link}` ? `${isWhite ? 'activewhite': 'activeblack'}` : ""}>
                                             {item.title}
                                             </a>

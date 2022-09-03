@@ -105,14 +105,14 @@ export default function About() {
                             <div className='row' style={{rowGap: "30px"}}>
                                 <div className='col-sm-6 col-md-6 col-lg-6 whatwedo-box'>
                                     <div className="title1">
-                                        <img src="vector/Group.png" />
+                                        <Image src="/vector/Group.png" alt='' height={48} width={48} />
                                         <h2>Branding</h2>
                                         <p>Building a visual expression of the products that encourages loyalty and builds trust. We bring the client’s vision into reality with a planned research, ideation, and precise execution.</p>
                                     </div>
                                 </div>
                                 <div className='col-sm-6 col-md-6 col-lg-6 whatwedo-box'>
                                     <div className="title1">
-                                        <img src="vector/Group (2).png" />
+                                        <Image src="/vector/Group (2).png" alt='' height={48} width={48} />
                                         <h2>UX/UI</h2>
                                         <p>We create interfaces with the core objective of creating an experience that facilitates effective interaction for the end-users that helps businesses to achieve their financial goals.</p>
                                     </div>
@@ -120,14 +120,14 @@ export default function About() {
 
                                 <div className='col-sm-6 col-md-6 col-lg-6 whatwedo-box'>
                                     <div className="title1">
-                                        <img src="vector/Group (3).png" />
+                                        <Image src="/vector/Group (3).png" alt='' height={48} width={48} />
                                         <h2>Development</h2>
                                         <p>We specialize in building fast, reliable, SEO-friendly, responsive websites and user-oriented mobile apps that are adaptable, modular, and expandable using cutting-edge technologies.</p>
                                     </div>
                                 </div>
                                 <div className='col-sm-6 col-md-6 col-lg-6 whatwedo-box'>
                                     <div className="title1">
-                                        <img src="vector/Group (6).png" />
+                                        <Image src="/vector/Group (6).png" alt='' height={48} width={48}  />
                                         <h2>Marketing</h2>
                                         <p>A strong digital presence on social media that increases traffic and exposure to your product.</p>
                                     </div>
@@ -138,14 +138,14 @@ export default function About() {
                 </div>
             </section>
 
-            <section>
+        <section>
         <div className="container">
           <div className="social-media">
             <ul>
-              <Link href="https://www.linkedin.com/in/designerbanda/"><li className='linked-in'><a href="#">Linked-in</a></li></Link>
-              <Link href="https://www.instagram.com/designer.banda/"><li className='instagram'><a href="#">Instagram</a></li></Link>
-              <Link href="https://www.behance.net/DesignerBanda"><li className='behance'><a href="#">Behance</a></li></Link>
-              <Link href="https://www.facebook.com/designer.bandaa/"><li className='facebook'><a href="#">Facebook</a></li></Link>
+                <li className='linked-in'><Link href="https://www.linkedin.com/in/designerbanda/" passHref={true}><a>Linked-in</a></Link></li>
+                <li className='instagram'><Link href="https://www.instagram.com/designer.banda/" passHref={true}><a>Instagram</a></Link></li>
+                <li className='behance'><Link href="https://www.behance.net/DesignerBanda" passHref={true}><a>Behance</a></Link></li>
+                <li className='facebook'><Link href="https://www.facebook.com/designer.bandaa/" passHref={true}><a>Facebook</a></Link></li>
             </ul>
           </div>
         </div>

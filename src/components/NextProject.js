@@ -7,8 +7,8 @@ export default function NextProject({ ProjectName, link}){
     <section>
           <div className="next-project text-center">
             <h3>NEXT PROJECT</h3>
-            <Link href={link}><h1>{ProjectName}</h1></Link>
-            <Link href={link}><a><FontAwesomeIcon icon={['far', 'fa-arrow-right']} /></a></Link>
+            <Link href={link} passHref={true}><h1>{ProjectName}</h1></Link>
+            <Link href={link} passHref={true}><a><FontAwesomeIcon icon={['far', 'fa-arrow-right']} /></a></Link>
           </div>
       </section>
     )

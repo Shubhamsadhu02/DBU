@@ -17,7 +17,7 @@ export default function Banner({ background, title, subtitle=null, image=null })
                         <div className="col-sm-12 col-lg-6">
                             {image?
                                 <div className="project-banner-container d-flex">
-                                    <Image className='project-banner' src={image} height={256} width={510} />
+                                    <Image className='project-banner' src={image} alt='' height={256} width={510} />
                                 </div>
                             :''
                             }

@@ -21,7 +21,7 @@ export default function Andy() {
                             </div>
                             
                             <div>
-                                <Image src="/images/andy/about.png" height={600} width={1096} />
+                                <Image src="/images/andy/about.png" alt='' height={600} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -37,19 +37,19 @@ export default function Andy() {
                             </div>
                             
                             <div>
-                                <Image src="/images/andy/foundation1.png" height={600} width={1096} />
+                                <Image src="/images/andy/foundation1.png" alt='' height={600} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/foundation2.png" height={432} width={1096} />
+                                <Image src="/images/andy/foundation2.png" alt='' height={432} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/foundation3.png" height={420} width={1096} />
+                                <Image src="/images/andy/foundation3.png" alt='' height={420} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/foundation4.png" height={535} width={1096} />
+                                <Image src="/images/andy/foundation4.png" alt='' height={535} width={1096} />
                             </div>
                             
                         </div>
@@ -61,27 +61,27 @@ export default function Andy() {
                         <div className="team">
                             <div className="work1 work3">
                                 <h2>Consistent Branding</h2>
-                                <p>Andy's team was concerned about the consistency of branding across all platforms. We brainstormed several ideas to establish a brand theme that speaks about blockchain technology, so we used Andy's primary color as the background and logo to create a pattern in the background, & the final outputs are shown below.</p>
+                                <p>Andy&apos;s team was concerned about the consistency of branding across all platforms. We brainstormed several ideas to establish a brand theme that speaks about blockchain technology, so we used Andy&apos;s primary color as the background and logo to create a pattern in the background, & the final outputs are shown below.</p>
                             </div>
                             
                             <div>
-                                <Image src="/images/andy/consistent.png" height={600} width={1096} />
+                                <Image src="/images/andy/consistent.png" alt='' height={600} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/consistent1.png" height={535} width={1096} />
+                                <Image src="/images/andy/consistent1.png" alt='' height={535} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/consistent2.png" height={460} width={1096} />
+                                <Image src="/images/andy/consistent2.png" alt='' height={460} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/consistent3.png" height={766} width={1096} />
+                                <Image src="/images/andy/consistent3.png" alt='' height={766} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/andy/consistent4.png" height={535} width={1096} />
+                                <Image src="/images/andy/consistent4.png" alt='' height={535} width={1096} />
                             </div>
                         </div>
                     </div>

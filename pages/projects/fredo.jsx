@@ -20,7 +20,7 @@ export default function Fredo() {
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/about.png" height={600} width={1096} />
+                                <Image src="/images/fredo/about.png" alt='' height={600} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -34,11 +34,11 @@ export default function Fredo() {
                                 <p>It was our first ever project in this domain & we handled everything from branding to product design with ease.
                                     <br/>
                                     <br/>
-                                    Rebranding was our prior task which involved renaming and redesigning the brand identity to represent growth, finance, and freedom. We proposed several names, but the client was adamant about the letter 'F,' so the name 'Fredo' was chosen.</p>
+                                    Rebranding was our prior task which involved renaming and redesigning the brand identity to represent growth, finance, and freedom. We proposed several names, but the client was adamant about the letter &apos;F,&apos; so the name &apos;Fredo&apos; was chosen.</p>
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/challenge.png" height={484} width={1096} />
+                                <Image src="/images/fredo/challenge.png" alt='' height={484} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -49,23 +49,23 @@ export default function Fredo() {
                         <div className="team">
                             <div className="work1 work3">
                                 <h2>Started from the Brand Identity</h2>
-                                <p>Many logo concepts were rejected at first, but our collaborative work with Fredo's team led us to the strong attributes of growth, finance, and freedom, as well as the letter 'F.' So we experimented with these parameters and arrived at the best possible result.</p>
+                                <p>Many logo concepts were rejected at first, but our collaborative work with Fredo&apos;s team led us to the strong attributes of growth, finance, and freedom, as well as the letter &apos;F&apos;. So we experimented with these parameters and arrived at the best possible result.</p>
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/brand1.png" height={324} width={1096} />
+                                <Image src="/images/fredo/brand1.png" alt='' height={324} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/brand2.png" height={564} width={1096} />
+                                <Image src="/images/fredo/brand2.png" alt='' height={564} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/brand3.png" height={535} width={1096} />
+                                <Image src="/images/fredo/brand3.png" alt='' height={535} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/brand4.png" height={564} width={1096} />
+                                <Image src="/images/fredo/brand4.png" alt='' height={564} width={1096} />
                             </div>
                             <br/>
                         </div>
@@ -86,15 +86,15 @@ export default function Fredo() {
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/improved.png" height={598} width={1096} />
+                                <Image src="/images/fredo/improved.png" alt='' height={598} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/improved1.png" height={500} width={1096} />
+                                <Image src="/images/fredo/improved1.png" alt='' height={500} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/improved2.png" height={390} width={1096} />
+                                <Image src="/images/fredo/improved2.png" alt='' height={390} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -105,11 +105,11 @@ export default function Fredo() {
                         <div className="team">
                             <div className="work1 work3">
                                 <h2>Onboarding & App Tour</h2>
-                                <p>We used a dark theme with 3D illustrations for the onboarding screens to give it a premium look. During user testing, they found it extremely useful in understanding the application's offerings and goals, and they were also blown away by the user experience.</p>
+                                <p>We used a dark theme with 3D illustrations for the onboarding screens to give it a premium look. During user testing, they found it extremely useful in understanding the application&apos;s offerings and goals, and they were also blown away by the user experience.</p>
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/onboarding.png" height={575} width={1096} />
+                                <Image src="/images/fredo/onboarding.png" alt='' height={575} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ export default function Fredo() {
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/main.png" height={667} width={1096} />
+                                <Image src="/images/fredo/main.png" alt='' height={667} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -135,11 +135,11 @@ export default function Fredo() {
                         <div className="team">
                             <div className="work1 work3">
                                 <h2>Poll & Rewards</h2>
-                                <p>We added major features like polls and rewards to increase app engagement. Polls will appear as you scroll through the speed news and readOn's stories. In rewards we added a referral program & daily streak.</p>
+                                <p>We added major features like polls and rewards to increase app engagement. Polls will appear as you scroll through the speed news and readOn&apos;s stories. In rewards we added a referral program & daily streak.</p>
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/poll.png" height={667} width={1096} />
+                                <Image src="/images/fredo/poll.png" alt='' height={667} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -155,11 +155,11 @@ export default function Fredo() {
                             </div>
                             
                             <div>
-                                <Image src="/images/fredo/community.png" height={620} width={1096} />
+                                <Image src="/images/fredo/community.png" alt='' height={620} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/community1.png" height={1156} width={1096} />
+                                <Image src="/images/fredo/community1.png" alt='' height={1156} width={1096} />
                             </div>
                         </div>
                     </div>
@@ -173,15 +173,15 @@ export default function Fredo() {
                                 <p>The website was a difficult task because we had to design a pre-login website that functions as a static informational website but after logging in, it transforms into a web application where users can read, like, and share the articles. So we created 2 different grid system for both modules & designed a visually stunning as well as functional website</p>
                             </div>
                             <div>
-                                <Image src="/images/fredo/responsive.png" height={700} width={1096} />
+                                <Image src="/images/fredo/responsive.png" alt='' height={700} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/responsive1.png" height={1474} width={1096} />
+                                <Image src="/images/fredo/responsive1.png" alt='' height={1474} width={1096} />
                             </div>
                             <br/>
                             <div>
-                                <Image src="/images/fredo/responsive2.png" height={736} width={1096} />
+                                <Image src="/images/fredo/responsive2.png" alt='' height={736} width={1096} />
                             </div>
                         </div>
                     </div>

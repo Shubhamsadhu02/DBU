@@ -15,11 +15,11 @@ export default function Vedose() {
                     <div className="team">
                         <div className="work1 work3">
                             <h2>About</h2>
-                            <p>Vedose is an ayurvedic telemedicine platform where patients can register and consult. Vedose doctors can consult with patients through the phone, chat, or video call. They're establishing a platform for many people seeking traditional Ayurvedic solutions.  
+                            <p>Vedose is an ayurvedic telemedicine platform where patients can register and consult. Vedose doctors can consult with patients through the phone, chat, or video call. They&apos;re establishing a platform for many people seeking traditional Ayurvedic solutions.  
                                 </p>
                         </div>
                         <div>
-                          <Image src="/images/vedose/about.png" height={650} width={1096} />
+                          <Image src="/images/vedose/about.png" alt='' height={650} width={1096} />
                         </div>
                     </div>
                 </div>
@@ -34,22 +34,22 @@ export default function Vedose() {
                                 </p>
                         </div>
                         <div>
-                          <Image src="/images/vedose/brand1.png" className='mb-5' height={650} width={1096} />
+                          <Image src="/images/vedose/brand1.png" alt='' className='mb-5' height={650} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/brand2.png" className='mb-5' height={650} width={1096} />
+                          <Image src="/images/vedose/brand2.png" alt='' className='mb-5' height={650} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/brand3.png" className='mb-5' height={650} width={1096} />
+                          <Image src="/images/vedose/brand3.png" alt='' className='mb-5' height={650} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/brand4.png" className='mb-5' height={650} width={1096} />
+                          <Image src="/images/vedose/brand4.png" alt='' className='mb-5' height={650} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/brand5.png" className='mb-5' height={400} width={1096} />
+                          <Image src="/images/vedose/brand5.png" alt='' className='mb-5' height={400} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/brand6.png" height={650} width={1096} />
+                          <Image src="/images/vedose/brand6.png" alt='' height={650} width={1096} />
                         </div>
                     </div>
                 </div>
@@ -67,19 +67,19 @@ export default function Vedose() {
                               </p>
                         </div>
                         <div>
-                          <Image src="/images/vedose/website1.png" className='mb-5' height={800} width={1096} />
+                          <Image src="/images/vedose/website1.png" alt='' className='mb-5' height={800} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/website2.png" className='mb-5' height={650} width={1096} />
+                          <Image src="/images/vedose/website2.png" alt='' className='mb-5' height={650} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/website3.png" className='mb-5' height={550} width={1096} />
+                          <Image src="/images/vedose/website3.png" alt='' className='mb-5' height={550} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/website4.png" className='mb-5' height={550} width={1096} />
+                          <Image src="/images/vedose/website4.png" alt='' className='mb-5' height={550} width={1096} />
                         </div>
                         <div>
-                          <Image src="/images/vedose/website5.png" height={3500} width={1096} />
+                          <Image src="/images/vedose/website5.png" alt='' height={3500} width={1096} />
                         </div>
                     </div>
                 </div>

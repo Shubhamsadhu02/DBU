@@ -42,9 +42,8 @@ export default function Spayee() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="project-box">
-                            <h2><img src="/images/spayee/logo.png" /></h2>
-                            <img src="/images/spayee/featured.png" />
+                        <div className='my-120'>
+                          <Image src="/images/spayee/impact.png" alt='' height={600} width={1096} />
                         </div>
                     </div>
                 </div>
@@ -56,59 +55,30 @@ export default function Spayee() {
                             <h2>The challenge for us</h2>
                             <p>Having a customer base of 500+&nbsp; Spayee was facing identity problem. The task at hand was to overhaul the brand identity and website in such a way that it would assist them in becoming the market leader in the course delivery sector while also providing a unique and distinct position in the global course market.</p>
                         </div>
-                        {/*Wireframes*/}
-                        <div className="wireframes">
-                            <Image src="/images/spayee/wireframe.svg" height={980} width={1096} />
-                        </div>
-                        {/*Spayee box*/}
-                        <div className="project-box1">
-                            <Image src="/images/spayee/colors.svg" height={461} width={1096} />
-                        </div>
-                        {/*Spayee 4 boxes*/}
                         <div>
-                            <div className="row">
-                                <div className="col-6">
-                                    <Image src="/images/spayee/concept-1.png" width={538} height={660} />
-                                </div>
-                                <div className="col-6">
-                                    <div className="row">
-                                        <div className="col-12">
-                                            <Image src="/images/spayee/concept-2.png" width={538} height={320} />
-                                        </div>
-                                    </div>
-                                    <div className="row mt-3">
-                                        <div className="col-6">
-                                            <Image src="/images/spayee/concept-3.png" width={230} height={320} />
-                                        </div>
-                                        <div className="col-6">
-                                            <Image src="/images/spayee/concept-4.png" width={538} height={320} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                          <Image src="/images/spayee/wireframe.png" alt='' className='mb-5' height={980} width={1096} />
                         </div>
-                    </div>
-                    {/*Website UI design*/}
-                    <div className='mt-5'>
-                        <div className="row">
-                            <div className="col-12">
-                                <Image src="/images/spayee/idea.svg" height={907} width={1096} />
-                            </div>
+                        <div>
+                          <Image src="/images/spayee/challenge1.png" alt='' className='mb-5' height={460} width={1096} />
                         </div>
-                        <div className="row">
-                            <div className="col-12">
-                                <Image src="/images/spayee/showcase-1.jpeg" height={650} width={1096} />
-                            </div>
+                        <div>
+                          <Image src="/images/spayee/challenge2.png" alt='' className='mb-5' height={664} width={1096} />
                         </div>
-
+                        <div>
+                          <Image src="/images/spayee/challenge3.png" alt='' className='mb-5' height={907} width={1096} />
+                        </div>
+                        <div>
+                          <Image src="/images/spayee/challenge4.png" alt='' className='mb-5' height={650} width={1096} />
+                        </div>
                     </div>
                 </div>
             </section>
+
             <section className="section-margin landing-page">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <Image src="/images/spayee/landing-page.png" height={6049} width={1096} />
+                            <Image src="/images/spayee/landing-page.png" alt='' height={6049} width={1096} />
                         </div>
                     </div>
                 </div>
