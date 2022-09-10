@@ -19,7 +19,6 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   const showNav= router.pathname === "/contact";
-  console.log(showNav);
 
   return (
   <>

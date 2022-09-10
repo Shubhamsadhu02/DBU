@@ -9,14 +9,14 @@ export default function Contact(props) {
     const [submitted, setSubmitted] = useState(false);
 
     const handleSubmit = async (event) => {
-        console.log(event.target);
+    
         const formData = new FormData(event.target);
         for (var [key, value] of formData.entries()) {
             console.log(key, value);
         }
         setSubmitted(true);
         event.preventDefault();
-        return false;
+        return;
     }
     return (
         <main>
@@ -35,7 +35,7 @@ export default function Contact(props) {
                                 Sounds intriguing?
                             </p>
                             <h6 className='mt-5'>Reach out to us</h6>
-                            <p><a href="mailto:hello@dbuniverse.com" target="_blank" rel="noreferrer">hello@dbuniverse.com</a></p>
+                            <p><a href="mailto:sahil@dbuniverse.co" target="_blank" rel="noreferrer">sahil@dbuniverse.co</a></p>
                         
                             <div className="icon" style={{marginTop: "10rem"}}>
                             <a href="https://www.facebook.com/designer.bandaa" target="framename" ><FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>

@@ -8,7 +8,7 @@ export default function Projects() {
         {
             "title": "Spayee",
             "description": "Edtech • Branding • Website",
-            "image": "/images/projects/spayee.png",
+            "image": "/images/projects/Spayee.png",
             "link": "/projects/spayee",
             "backgroundColor": "spayee-bg"
         },

@@ -22,7 +22,7 @@ export default function Footer(props) {
                             <a href="https://dribbble.com/DesignerBanda" target="framename"><FontAwesomeIcon icon={['fab', 'dribbble']} /></a>
                         </div>
                     </div>
-                    <a href="#" className="box my-5">Let’s discuss</a>
+                    <a href="#" className="box mt-4 mb-5">Let’s discuss</a>
                    
             
                 <div className="copyright">

@@ -11,7 +11,7 @@ export default function About() {
                 <div className="container py-5">
                     <div className="row">
                         <div className="col-sm-12 col-md-4 col-lg-4">
-                            <Image className='explore-image' src="/images/about/sahil.png" alt='Sahil' width={328} height={360} />
+                            <Image className='explore-image' src="/images/about/sahil.png" alt='Sahil' width={328} height={328} />
                             {/* <h2 className='explore-image--heading'>Sahil Dev aka Designer Banda,</h2>
                             <h3 className='explore-image--sub-heading'>Founder</h3> */}
                         </div>

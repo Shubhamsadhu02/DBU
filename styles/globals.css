@@ -396,6 +396,8 @@ main {
 /*trusted section*/
 
 .trusted .brands h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     margin-top: 50px;
@@ -531,6 +533,8 @@ footer h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
     font-size: 68px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
 }
 
 footer h2 {
@@ -574,7 +578,7 @@ footer .copyright p {
 /*Start our team*/
 
 .explore-image--heading {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .explore-image--heading {
@@ -853,61 +857,6 @@ footer .copyright p {
     color: #969BA0;
     ;
 }
-
-/*Shop page*/
-.shop-box{
-    height: 580px;
-    background-size: cover;
-    padding: 40px;
-    position: relative;
-}
-
-.shop-box--title{
-    color: #fff;
-    font-weight: 800;
-}
-
-.shop-box--price{
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 100px;
-    border: 1px solid #fff;
-    display: inline-block;
-    font-size: 26px;
-    background: rgba(255,255,255,0.2);
-}
-
-.shop-features{
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    justify-content: center;
-    margin-top: 30px;
-    padding: 0px;
-}
-
-.shop-features--li{
-    font-size: 18px;
-    font-family: 'Objectivity', sans-serif;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.shop-features--li span{
-    margin-right: 20px;
-}
-
-.shop-bottom-box{
-    display: flex;
-    position: absolute;
-    bottom: 0px;
-}
-
-.shop-bottom-box p{
-    margin-right: 20px;
-}
-
 
 .kit {
     
