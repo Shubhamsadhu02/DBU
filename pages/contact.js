@@ -20,7 +20,7 @@ export default function Contact(props) {
     }
     return (
         <main>
-        <div className="explore explore3" style={{height: "120vh"}}></div>
+        <div className="explore explore3" style={{height: "125vh"}}></div>
         <Header isWhite={true} />
         <section className="explore-top__section1 position-relative" style={{padding: "25px 60px 0", zIndex: "1000"}}>
         <div className="contactus">
@@ -62,7 +62,7 @@ export default function Contact(props) {
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="" className="form-label">Email</label>
-                                    <input type="text" className="form-control" placeholder="username@gmail.com" name="email" required/>
+                                    <input type="email" className="form-control" placeholder="username@gmail.com" name="email" required/>
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="" className="form-label">Message</label>
