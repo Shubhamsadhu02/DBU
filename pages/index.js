@@ -14,7 +14,7 @@ export default function Home() {
           <div className="building text-center">
             <h1>Building the Future</h1>
             <p className="text-center" style={{width: "650px"}}>We design digital experiences to create an impactful modern identity that transform businesses and customer lives</p>
-            <Link href='/projects' className="box">Explore Our Universe</a>
+            <Link href='/projects' passHref={true}><a className="box" >Explore Our Universe</a></Link>
           </div>
         </div>
       </section>

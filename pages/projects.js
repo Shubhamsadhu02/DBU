@@ -4,7 +4,7 @@ import Header from '../src/components/Header'
 
 export default function Projects() {
 
-    const cards=[
+    const cards = [
         {
             "title": "Spayee",
             "description": "Edtech • Branding • Website",
@@ -15,14 +15,14 @@ export default function Projects() {
         {
             "title": "Finshots",
             "description": "Financial News Application • Branding ",
-            "image": "/images/projects/finshots.png",
+            "image": "/images/projects/Finshots.png",
             "link": "/projects/finshots",
             "backgroundColor": "finshots-bg"
         },
         {
             "title": "Dybo",
             "description": "AR Product • Branding • UI/UX Design ",
-            "image": "/images/projects/dybo.png",
+            "image": "/images/projects/Dybo.png",
             "link": "/projects/dybo",
             "backgroundColor": "dybo-bg"
         },
@@ -43,7 +43,7 @@ export default function Projects() {
         {
             "title": "Bakul Fresh",
             "description": "Agritech Product • Branding • UI/UX Design",
-            "image": "/images/projects/bakul.png",
+            "image": "/images/projects/Bakul.png",
             "link": "/projects/bakul-fresh",
             "backgroundColor": "bakul-bg"
         },
@@ -163,13 +163,13 @@ export default function Projects() {
 
     return (
         <div>
-            
-            <Header/>
-            <section className='projects-section' style={{padding: "100px 230px"}}>
+
+            <Header />
+            <section className='projects-section' style={{ padding: "100px 230px" }}>
                 <div className="container-fluid">
                     <div className="crafting text-center">
                         <h2>Crafting Industries</h2>
-                        <p style={{width: "515px"}}>We provide our clients with a fresh approach and bring innovation to their challenges.</p>
+                        <p style={{ width: "515px" }}>We provide our clients with a fresh approach and bring innovation to their challenges.</p>
                         {/* <ul>
                             <li className="active"><a href="#">ALL</a></li>
                             <li><a href="#">Branding</a></li>
@@ -182,22 +182,22 @@ export default function Projects() {
 
             <section>
                 <div className="container">
-                   
-                    <div className="work-box" style={{marginBottom: "10rem"}}>
-                        <div className='row' style={{rowGap: "2rem"}}>
+
+                    <div className="work-box" style={{ marginBottom: "10rem" }}>
+                        <div className='row' style={{ rowGap: "2rem" }}>
                             {
                                 cards.map((ele) => {
                                     return <div className='col-sm-12 col-md-6 col-lg-6' key={ele.title}>
-                                                <Link href={ele.link} passHref={true}><div className={`product-wrapper ${ele.backgroundColor}`}>
-                                                    <div className="box-bg" style={{background: `url(${ele.image})`}}>
-                                                        <div className="product-wrapper--text">
-                                                            <Link href={ele.link} passHref={true}><a><h2 className='product-wrapper--title'>{ele.title}</h2></a></Link>
-                                                            <p className='product-wrapper--subtitle'>{ele.description}</p>
-                                                        </div>
-                                                    </div> 
-                                                </div></Link>
+                                        <Link href={ele.link} passHref={true}><div className={`product-wrapper ${ele.backgroundColor}`}>
+                                            <div className="box-bg" style={{ background: `url(${ele.image})` }}>
+                                                <div className="product-wrapper--text">
+                                                    <Link href={ele.link} passHref={true}><a><h2 className='product-wrapper--title'>{ele.title}</h2></a></Link>
+                                                    <p className='product-wrapper--subtitle'>{ele.description}</p>
+                                                </div>
                                             </div>
-                            })
+                                        </div></Link>
+                                    </div>
+                                })
                             }
                         </div>
                     </div>
